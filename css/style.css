@@ -87,15 +87,15 @@ h4 {
     margin-bottom: 10px;
 }
 
-.skills ul, #languages ul, #education ul, #hobbies ul {
+.skills ul, #languages ul, #education ul, #certifications ul, #professional-interests ul, #hobbies ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.skills li, #languages li, #education li {
+.skills li, #languages li, #education li, #certifications li, #professional-interests li {
     display: block;
-    margin-bottom: 15px; /* Augmentation de l'espacement entre les éléments */
+    margin-bottom: 10px; /* Espacement entre les éléments */
     font-size: 0.9em;
 }
 
@@ -126,7 +126,7 @@ h4 {
 
 .language-selector {
     display: flex;
-    gap: 4%;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -135,8 +135,8 @@ h4 {
     background-color: #1F4E79;
     color: white;
     border: none;
-    padding: 6px 14px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 1em;
@@ -152,31 +152,32 @@ h4 {
 }
 
 .language-selector-container::before {
+    content: "Langues";
+    font-size: 0.9em;
     color: #1F4E79;
     font-weight: bold;
     text-align: center;
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
 }
-
 
 /* Ajustement spécifique pour la section Éducation */
 #education li {
     margin-bottom: 15px; /* Ajout d'espace entre les éléments de la liste */
-    line-height: 1.4;
+    line-height: 0.9;
 }
 
 #education li strong {
     font-weight: bold;
-    display: inline; /* Suppression des sauts de ligne */
-    margin-right: 5px;
+    display: block; /* Suppression des sauts de ligne */
+    margin-bottom: 5px;
 }
 
 #education li i {
     font-style: italic;
     color: #555;
-    display: inline; /* Suppression des sauts de ligne */
-    margin-right: 5px;
+    display: block; /* Suppression des sauts de ligne */
+    margin-bottom: 5px;
 }
 
 #education li p {
@@ -186,27 +187,7 @@ h4 {
     font-size: 0.95em;
 }
 
-/* Ajustement spécifique pour la section Expérience */
-.experience-item h3 {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #333;
-}
-
-.experience-item p i {
-    font-size: 1em;
-    font-weight: bold;
-    color: #555;
-    display: block; /* Permet de s'assurer que l'employeur et l'emplacement sont sur une ligne séparée */
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
 /* Restauration des icônes des hobbies */
-#hobbies li {
-    margin-bottom: 10px;
-}
-
 #hobbies li i {
     margin-right: 10px;
     color: #1F4E79;
@@ -345,3 +326,4 @@ h4 {
         text-align: center;
     }
 }
+

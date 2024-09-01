@@ -43,6 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('languages-title').textContent = getTranslation(data.sections, 'languages');
                 document.getElementById('education-title').textContent = getTranslation(data.sections, 'education');
                 document.getElementById('hobbies-title').textContent = getTranslation(data.sections, 'hobbies');
+                document.getElementById('certifications-title').textContent = getTranslation(data.sections, 'certifications');
+                document.getElementById('professional-interests-title').textContent = getTranslation(data.sections, 'professionalInterests');
 
                 // Charger les compétences
                 const skillsContainer = document.getElementById('skills');
@@ -89,14 +91,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 educationContainer.innerHTML = '';
                 data.education.forEach(edu => {
                     const li = document.createElement('li');
-                    li.innerHTML = `
-                        <strong>${edu.year} : ${getTranslation(edu, 'degree')}</strong><br>
-                        <i>${edu.city} (${edu.country})</i><br>
-                        <p>${getTranslation(edu, 'details')}</p>
-                    `;
+                    li.innerHTML = `<strong>${edu.year} : ${getTranslation(edu, 'degree')}</strong><br>
+                                    <i>${edu.city} (${edu.country})</i><br>
+                                    <p>${getTranslation(edu, 'details')}</p>`;
                     educationContainer.appendChild(li);
                 });
-
 
                 // Charger les langues
                 const languagesContainer = document.getElementById('languages');
@@ -115,6 +114,36 @@ document.addEventListener('DOMContentLoaded', function() {
                     li.innerHTML = `<i class="${hobby.icon}"></i> ${getTranslation(hobby, 'name')}`;
                     hobbiesContainer.appendChild(li);
                 });
+
+                // Charger les certifications
+                const certificationsContainer = document.getElementById('certifications');
+                certificationsContainer.innerHTML = '';
+                if (data.certifications && data.certifications.length > 0) {
+                    const certificationsTitle = document.getElementById('certifications-title');
+                    certificationsTitle.style.display = 'block';
+                    data.certifications.forEach(cert => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<strong>${cert.year}:</strong> ${getTranslation(cert, 'title')}`;
+                        certificationsContainer.appendChild(li);
+                    });
+                } else {
+                    document.getElementById('certifications-title').style.display = 'none';
+                }
+
+                // Charger les centres d'intérêt professionnels
+                const professionalInterestsContainer = document.getElementById('professional-interests');
+                professionalInterestsContainer.innerHTML = '';
+                if (data.professionalInterests && data.professionalInterests.length > 0) {
+                    const interestsTitle = document.getElementById('professional-interests-title');
+                    interestsTitle.style.display = 'block';
+                    data.professionalInterests.forEach(interest => {
+                        const li = document.createElement('li');
+                        li.textContent = getTranslation(interest, 'name');
+                        professionalInterestsContainer.appendChild(li);
+                    });
+                } else {
+                    document.getElementById('professional-interests-title').style.display = 'none';
+                }
 
                 // Gérer l'état actif des boutons de langue
                 document.getElementById('btn-fr').classList.remove('active');

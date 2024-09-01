@@ -15,34 +15,42 @@
             "en": "Seine et Marne, France"
         },
         "linkedin": "https://www.linkedin.com/in/clementbreisch/",
-        "website": null
+        "website": "https://cv.breisch.fr"
     },
     "profilePic": "./images/profile.jpg",
     "sections": {
         "languages": {
-            "fr": "LANGUES",
-            "en": "LANGUAGES"
+            "fr": "Langues",
+            "en": "Languages"
         },
         "education": {
-            "fr": "ÉDUCATION",
-            "en": "EDUCATION"
+            "fr": "Éducation",
+            "en": "Education"
         },
         "hobbies": {
-            "fr": "HOBBIES",
-            "en": "HOBBIES"
+            "fr": "Loisirs",
+            "en": "Hobbies"
+        },
+        "certifications": {
+            "fr": "Certifications",
+            "en": "Certifications"
+        },
+        "professionalInterests": {
+            "fr": "Intérêts professionnels",
+            "en": "Professional Interests"
         },
         "summary": {
-            "fr": "RÉSUMÉ PROFESSIONNEL",
-            "en": "PROFESSIONAL SUMMARY"
+            "fr": "Résumé professionnel",
+            "en": "Professional Summary"
         },
         "experience": {
-            "fr": "EXPÉRIENCE PROFESSIONNELLE",
-            "en": "PROFESSIONAL EXPERIENCE"
+            "fr": "Expérience professionnelle",
+            "en": "Professional Experience"
         }
     },
     "profile": {
-        "fr": "Architecte d'infrastructure avec une expertise en stockage, virtualisation, et développement d'outils pour l'inventaire et le déploiement de serveurs. Solide expérience dans la gestion de projets complexes et d'équipes techniques, avec une capacité à résoudre des problèmes techniques complexes tout en travaillant sous pression.",
-        "en": "Infrastructure architect with expertise in storage, virtualization, and tool development for server inventory and deployment. Solid experience in managing complex projects and technical teams, with the ability to solve complex technical problems while working under pressure."
+        "fr": "Architecte d'infrastructure passionné par l'informatique, avec une expertise en stockage, virtualisation et développement d'outils pour l'inventaire et le déploiement de serveurs. Curieux et toujours désireux d'apprendre, je me suis forgé une solide expérience en autodidacte, ce qui m'a permis de maîtriser des technologies complexes. Mon parcours m'a conduit à gérer des projets de grande envergure et à diriger des équipes techniques, avec une aptitude avérée à résoudre des problèmes techniques complexes, même sous pression.",
+         "en": "Passionate infrastructure architect with a deep interest in IT, specializing in storage, virtualization, and the development of tools for server inventory and deployment. Driven by curiosity and a strong desire to learn, I have developed extensive expertise through self-directed learning, allowing me to master complex technologies. My journey has led me to manage large-scale projects and lead technical teams, with a proven ability to solve intricate technical challenges, even under pressure."
     },
     "skills": [
         {
@@ -345,6 +353,55 @@
                 "en": "Photography"
             },
             "icon": "fas fa-camera"
+        }
+    ],
+    "certifications": [
+        {
+            "year": "2018",
+            "title": {
+                "fr": "Cisco Certified Network Associate",
+                "en": "Cisco Certified Network Associate"
+            }
+        },
+        {
+            "year": "2020",
+            "title": {
+                "fr": "VMWare Certified Professional 7.0 - Data Center Virtualization",
+                "en": "VMWare Certified Professional 7.0 - Data Center Virtualization"
+            }
+        },
+        {
+            "year": "2021",
+            "title": {
+                "fr": "VMWare Certified Advanced Professional 7.0 - Data Center Virtualisation Design",
+                "en": "VMWare Certified Advanced Professional 7.0 - Data Center Virtualisation Design"
+            }
+        }
+    ],
+    "professionalInterests": [
+        {
+            "name": {
+                "fr": "Automatisation des tâches",
+                "en": "Task Automation"
+            }
+        },
+        {
+            "name": {
+                "fr": "Sécurité des systèmes",
+                "en": "System Security"
+            }
+        },
+        {
+            "name": {
+                "fr": "Développement d'outils",
+                "en": "Tool Development"
+            }
+        },
+        {
+            "name": {
+                "fr": "Logiciel libre",
+                "en": "Open Source Software"
+            }
         }
     ]
 }
