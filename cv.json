@@ -197,8 +197,8 @@
                 },
                 {
                     "name": {
-                        "fr": "Switch FC",
-                        "en": "FC Switch"
+                        "fr": "Switch SAN Fibre Channel",
+                        "en": "SAN Fibre Channel Switch"
                     },
                     "level": 90
                 }
@@ -214,7 +214,7 @@
                 "en": "Infrastructure Systems Architect"
             },
             "employer": "TNS Info",
-            "city": "Paris",
+            "city": "Fontainebleau",
             "country": "France",
             "details": {
                 "fr": [
@@ -243,7 +243,7 @@
                 "en": "Metal Development Architect"
             },
             "employer": "Ubisoft",
-            "city": "Paris",
+            "city": "Montreuil",
             "country": "France",
             "details": {
                 "fr": [
@@ -266,7 +266,7 @@
                 "en": "Storage Infrastructure Architect"
             },
             "employer": "Société Générale",
-            "city": "Paris",
+            "city": "Val-de-Fontenay",
             "country": "France",
             "details": {
                 "fr": [
@@ -298,19 +298,6 @@
             "details": {
                 "fr": "Programme intensif de développement logiciel.",
                 "en": "Intensive software development program."
-            }
-        },
-        {
-            "year": "2014 - Aujourd'hui",
-            "degree": {
-                "fr": "Veille technologique permanente",
-                "en": "Permanent Technological Watch"
-            },
-            "city": "",
-            "country": "",
-            "details": {
-                "fr": "",
-                "en": ""
             }
         }
     ],

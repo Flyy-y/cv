@@ -89,9 +89,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 educationContainer.innerHTML = '';
                 data.education.forEach(edu => {
                     const li = document.createElement('li');
-                    li.innerHTML = `<strong>${edu.year} : ${getTranslation(edu, 'degree')}</strong><i>${edu.city ? edu.city + ',' : ''} ${edu.country ? `(${edu.country})` : ''}</i><p>${getTranslation(edu, 'details')}</p>`;
+                    li.innerHTML = `
+                        <strong>${edu.year} : ${getTranslation(edu, 'degree')}</strong><br>
+                        <i>${edu.city} (${edu.country})</i><br>
+                        <p>${getTranslation(edu, 'details')}</p>
+                    `;
                     educationContainer.appendChild(li);
                 });
+
 
                 // Charger les langues
                 const languagesContainer = document.getElementById('languages');
