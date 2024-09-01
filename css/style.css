@@ -1,0 +1,347 @@
+/* Importation de la police Exo 2 depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 0.95em;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #1F4E79;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: #1F4E79;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #1F4E79;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #1F4E79;
+}
+
+.container {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.left-column {
+    width: 18%;
+    padding: 15px;
+    border-right: 2px solid #1F4E79;
+    box-sizing: border-box;
+}
+
+.middle-column {
+    width: 67%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    width: 15%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-section h4 {
+    font-size: 1.1em;
+    color: #1F4E79;
+    margin-bottom: 10px;
+}
+
+.skills ul, #languages ul, #education ul, #hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li, #languages li, #education li {
+    display: block;
+    margin-bottom: 15px; /* Augmentation de l'espacement entre les éléments */
+    font-size: 0.9em;
+}
+
+.progress-bar {
+    width: 60%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 8px;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #36A2EB;
+}
+
+.language-selector-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border: 2px solid #1F4E79;
+}
+
+.language-selector {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-selector button {
+    background-color: #1F4E79;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.language-selector button:hover {
+    background-color: #145a8a;
+}
+
+.language-selector button.active {
+    background-color: #36A2EB;
+}
+
+.language-selector-container::before {
+    color: #1F4E79;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 2px;
+}
+
+
+/* Ajustement spécifique pour la section Éducation */
+#education li {
+    margin-bottom: 15px; /* Ajout d'espace entre les éléments de la liste */
+    line-height: 1.4;
+}
+
+#education li strong {
+    font-weight: bold;
+    display: inline; /* Suppression des sauts de ligne */
+    margin-right: 5px;
+}
+
+#education li i {
+    font-style: italic;
+    color: #555;
+    display: inline; /* Suppression des sauts de ligne */
+    margin-right: 5px;
+}
+
+#education li p {
+    margin: 0;
+    margin-top: 5px; /* Réduction de l'espace avant le descriptif */
+    color: #333;
+    font-size: 0.95em;
+}
+
+/* Ajustement spécifique pour la section Expérience */
+.experience-item h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.experience-item p i {
+    font-size: 1em;
+    font-weight: bold;
+    color: #555;
+    display: block; /* Permet de s'assurer que l'employeur et l'emplacement sont sur une ligne séparée */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Restauration des icônes des hobbies */
+#hobbies li {
+    margin-bottom: 10px;
+}
+
+#hobbies li i {
+    margin-right: 10px;
+    color: #1F4E79;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media only screen and (min-width: 1200px) {
+    .left-column {
+        width: 18%;
+    }
+    .middle-column {
+        width: 67%;
+    }
+    .right-column {
+        width: 15%;
+    }
+
+    .profile-pic {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .left-column {
+        width: 22%;
+    }
+    .middle-column {
+        width: 63%;
+    }
+    .right-column {
+        width: 15%;
+    }
+
+    .profile-pic {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .left-column {
+        width: 100%;
+        border-right: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .middle-column, .right-column {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .language-selector-container {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .profile-pic {
+        width: 50%;
+        height: auto;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .skills li {
+        font-size: 0.95em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .left-column, .middle-column, .right-column {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .skills-section h4 {
+        font-size: 0.9em;
+    }
+
+    .skills li {
+        font-size: 0.85em;
+    }
+
+    .right-column h2 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+}

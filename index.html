@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément BREISCH - CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="language-selector-container">
+        <div class="language-selector">
+            <button id="btn-fr" onclick="changeLanguage('fr')" class="active">Français</button>
+            <button id="btn-en" onclick="changeLanguage('en')">English</button>
+        </div>
+    </div>    
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <img id="profile-pic" src="" alt="" class="profile-pic">
+            <div id="contact-info" class="contact-info">
+                <h1 id="name"></h1>
+                <p id="title"></p>
+                <p id="email-container"><i class="fas fa-envelope"></i> <span id="email"></span></p>
+                <p id="phone-container"><i class="fas fa-phone"></i> <span id="phone"></span></p>
+                <p id="location-container"><i class="fas fa-map-marker-alt"></i> <span id="location"></span></p>
+                <a id="linkedin" href="#" style="display:none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a id="website" href="#" style="display:none;"><i class="fas fa-globe"></i> Website</a>
+            </div>
+            <div id="skills"></div>
+        </div>
+
+        <!-- Right Column -->
+        <div id="experience" class="middle-column">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+
+        <div class="right-column">
+            <h2 id="languages-title" class="section-title"><i class="fas fa-language"></i></h2>
+            <ul id="languages"></ul>
+            <h2 id="education-title" class="section-title"><i class="fas fa-graduation-cap"></i></h2>
+            <ul id="education"></ul>
+            <h2 id="hobbies-title" class="section-title"><i class="fas fa-sun"></i></h2>
+            <ul id="hobbies"></ul>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

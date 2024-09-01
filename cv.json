@@ -1,0 +1,363 @@
+{
+    "name": {
+        "fr": "Clément BREISCH",
+        "en": "Clément BREISCH"
+    },
+    "title": {
+        "fr": "Passionné d'informatique",
+        "en": "IT Enthusiast"
+    },
+    "contact": {
+        "email": "clement@breisch.fr",
+        "phone": "+33 6 06 43 11 02",
+        "location": {
+            "fr": "Seine et Marne, France",
+            "en": "Seine et Marne, France"
+        },
+        "linkedin": "https://www.linkedin.com/in/clementbreisch/",
+        "website": null
+    },
+    "profilePic": "./images/profile.jpg",
+    "sections": {
+        "languages": {
+            "fr": "LANGUES",
+            "en": "LANGUAGES"
+        },
+        "education": {
+            "fr": "ÉDUCATION",
+            "en": "EDUCATION"
+        },
+        "hobbies": {
+            "fr": "HOBBIES",
+            "en": "HOBBIES"
+        },
+        "summary": {
+            "fr": "RÉSUMÉ PROFESSIONNEL",
+            "en": "PROFESSIONAL SUMMARY"
+        },
+        "experience": {
+            "fr": "EXPÉRIENCE PROFESSIONNELLE",
+            "en": "PROFESSIONAL EXPERIENCE"
+        }
+    },
+    "profile": {
+        "fr": "Architecte d'infrastructure avec une expertise en stockage, virtualisation, et développement d'outils pour l'inventaire et le déploiement de serveurs. Solide expérience dans la gestion de projets complexes et d'équipes techniques, avec une capacité à résoudre des problèmes techniques complexes tout en travaillant sous pression.",
+        "en": "Infrastructure architect with expertise in storage, virtualization, and tool development for server inventory and deployment. Solid experience in managing complex projects and technical teams, with the ability to solve complex technical problems while working under pressure."
+    },
+    "skills": [
+        {
+            "category": {
+                "fr": "Virtualisation",
+                "en": "Virtualization"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Écosystème VMware",
+                        "en": "VMware Ecosystem"
+                    },
+                    "level": 95
+                },
+                {
+                    "name": {
+                        "fr": "Sauvegarde Veeam",
+                        "en": "Veeam Backup"
+                    },
+                    "level": 95
+                },
+                {
+                    "name": {
+                        "fr": "Proxmox",
+                        "en": "Proxmox"
+                    },
+                    "level": 65
+                }
+            ]
+        },
+        {
+            "category": {
+                "fr": "Système",
+                "en": "System"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Linux (DEB)",
+                        "en": "Linux (DEB)"
+                    },
+                    "level": 75
+                },
+                {
+                    "name": {
+                        "fr": "SaltStack",
+                        "en": "SaltStack"
+                    },
+                    "level": 65
+                },
+                {
+                    "name": {
+                        "fr": "Serveur Windows",
+                        "en": "Windows Server"
+                    },
+                    "level": 80
+                },
+                {
+                    "name": {
+                        "fr": "Active Directory",
+                        "en": "Active Directory"
+                    },
+                    "level": 75
+                },
+                {
+                    "name": {
+                        "fr": "Microsoft Exchange",
+                        "en": "Microsoft Exchange"
+                    },
+                    "level": 70
+                }
+            ]
+        },
+        {
+            "category": {
+                "fr": "Gestion",
+                "en": "Management"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Gestion d'équipe",
+                        "en": "Team Management"
+                    },
+                    "level": 85
+                },
+                {
+                    "name": {
+                        "fr": "Chefferie de projet",
+                        "en": "Project Management"
+                    },
+                    "level": 80
+                }
+            ]
+        },
+        {
+            "category": {
+                "fr": "Développement",
+                "en": "Development"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Python",
+                        "en": "Python"
+                    },
+                    "level": 80
+                },
+                {
+                    "name": {
+                        "fr": "Node.JS",
+                        "en": "Node.JS"
+                    },
+                    "level": 85
+                },
+                {
+                    "name": {
+                        "fr": "C, C++",
+                        "en": "C, C++"
+                    },
+                    "level": 60
+                },
+                {
+                    "name": {
+                        "fr": "C#",
+                        "en": "C#"
+                    },
+                    "level": 70
+                },
+                {
+                    "name": {
+                        "fr": "Git",
+                        "en": "Git"
+                    },
+                    "level": 75
+                }
+            ]
+        },
+        {
+            "category": {
+                "fr": "Réseau",
+                "en": "Networking"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Switch IP",
+                        "en": "IP Switch"
+                    },
+                    "level": 65
+                },
+                {
+                    "name": {
+                        "fr": "Switch FC",
+                        "en": "FC Switch"
+                    },
+                    "level": 90
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "startDate": "2021",
+            "endDate": "2024",
+            "title": {
+                "fr": "Architecte Infrastructure Système",
+                "en": "Infrastructure Systems Architect"
+            },
+            "employer": "TNS Info",
+            "city": "Paris",
+            "country": "France",
+            "details": {
+                "fr": [
+                    "Développement d'une offre de cloud privé, conçue pour améliorer l'efficacité des services IT tout en réduisant les coûts d'infrastructure.",
+                    "Mise en place d'une infrastructure VMWare (vSAN, ESXi) robuste, assurant une haute disponibilité et une gestion optimisée des ressources.",
+                    "Gestion de plusieurs systèmes 3CX, assurant la configuration avancée des scénarios d'appels ainsi que la gestion de l'infrastructure sous Linux. Réalisation de la mise à jour des systèmes 3CX de la version 18 à la version 20, garantissant une continuité de service optimale.",
+                    "Gestion de projets complexes, y compris la mise en œuvre d'une infrastructure de VPN centralisé (SoftEther), garantissant la sécurité des communications entre les sites distants.",
+                    "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), permettant la protection des données critiques.",
+                    "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes."
+                ],
+                "en": [
+                    "Developed a private cloud offering, designed to improve IT service efficiency while reducing infrastructure costs.",
+                    "Implemented a robust VMWare infrastructure (vSAN, ESXi), ensuring high availability and optimized resource management.",
+                    "Managed several 3CX systems, ensuring advanced call scenario configurations and Linux-based infrastructure management. Upgraded 3CX systems from version 18 to version 20, ensuring optimal service continuity.",
+                    "Handled complex projects, including the implementation of a centralized VPN infrastructure (SoftEther), ensuring secure communications between remote sites.",
+                    "Oversaw the integration of a complete backup infrastructure (Veeam with Hardened Repository), enabling the protection of critical data.",
+                    "Actively participated in strategic decisions for optimizing information systems, in collaboration with executive teams."
+                ]
+            }
+        },
+        {
+            "startDate": "2021",
+            "endDate": "2021",
+            "title": {
+                "fr": "Architecte en charge du développement Métal",
+                "en": "Metal Development Architect"
+            },
+            "employer": "Ubisoft",
+            "city": "Paris",
+            "country": "France",
+            "details": {
+                "fr": [
+                    "Développement d'outils personnalisés pour l'inventaire et le déploiement automatisé de serveurs physiques, réduisant le temps de configuration et les erreurs humaines.",
+                    "Collaboration avec les équipes de développement et d'opérations pour améliorer les processus de déploiement des infrastructures matérielles.",
+                    "Introduction de meilleures pratiques pour la gestion de l'infrastructure matérielle, contribuant à une réduction des coûts opérationnels."
+                ],
+                "en": [
+                    "Developed custom tools for inventory and automated deployment of physical servers, reducing setup time and human errors.",
+                    "Collaborated with development and operations teams to improve hardware infrastructure deployment processes.",
+                    "Introduced best practices for managing hardware infrastructure, contributing to reduced operational costs."
+                ]
+            }
+        },
+        {
+            "startDate": "2018",
+            "endDate": "2021",
+            "title": {
+                "fr": "Architecte d'infrastructure stockage",
+                "en": "Storage Infrastructure Architect"
+            },
+            "employer": "Société Générale",
+            "city": "Paris",
+            "country": "France",
+            "details": {
+                "fr": [
+                    "Gestion complète de l'écosystème de stockage de données, comprenant le SAN pour le stockage de VM et DB, NAS pour le stockage de fichiers génériques et applicatifs, et S3 pour les fichiers applicatifs.",
+                    "Conduite de la migration réussie d'un datacenter, minimisant les interruptions de service grâce à une planification rigoureuse et à l'utilisation d'outils avancés.",
+                    "Développement et maintenance de scripts opérationnels pour automatiser les tâches répétitives, augmentant ainsi l'efficacité de l'équipe.",
+                    "Encadrement et formation d'une équipe de 8 techniciens spécialisés dans le stockage, favorisant leur développement professionnel et l'amélioration des performances de l'équipe.",
+                    "Collaboration avec les équipes de sécurité pour garantir la conformité des systèmes de stockage aux normes en vigueur."
+                ],
+                "en": [
+                    "Managed the complete data storage ecosystem, including SAN for VM and DB storage, NAS for general and application file storage, and S3 for application files.",
+                    "Successfully led the migration of a datacenter, minimizing service disruptions through rigorous planning and the use of advanced tools.",
+                    "Developed and maintained operational scripts to automate repetitive tasks, increasing team efficiency.",
+                    "Mentored and trained a team of 8 technicians specialized in storage, fostering their professional growth and improving team performance.",
+                    "Collaborated with security teams to ensure storage systems comply with current standards."
+                ]
+            }
+        }
+    ],
+    "education": [
+        {
+            "year": "2018",
+            "degree": {
+                "fr": "École 42",
+                "en": "42 School"
+            },
+            "city": "Paris",
+            "country": "France",
+            "details": {
+                "fr": "Programme intensif de développement logiciel.",
+                "en": "Intensive software development program."
+            }
+        },
+        {
+            "year": "2014 - Aujourd'hui",
+            "degree": {
+                "fr": "Veille technologique permanente",
+                "en": "Permanent Technological Watch"
+            },
+            "city": "",
+            "country": "",
+            "details": {
+                "fr": "",
+                "en": ""
+            }
+        }
+    ],
+    "languages": [
+        {
+            "name": {
+                "fr": "Français",
+                "en": "French"
+            },
+            "level": 95
+        },
+        {
+            "name": {
+                "fr": "Anglais",
+                "en": "English"
+            },
+            "level": 80
+        }
+    ],
+    "hobbies": [
+        {
+            "name": {
+                "fr": "Informatique",
+                "en": "Computing"
+            },
+            "icon": "fas fa-keyboard"
+        },
+        {
+            "name": {
+                "fr": "Jeux vidéo",
+                "en": "Video Games"
+            },
+            "icon": "fas fa-gamepad"
+        },
+        {
+            "name": {
+                "fr": "Cinéma",
+                "en": "Cinema"
+            },
+            "icon": "fas fa-film"
+        },
+        {
+            "name": {
+                "fr": "Photographie",
+                "en": "Photography"
+            },
+            "icon": "fas fa-camera"
+        }
+    ]
+}
