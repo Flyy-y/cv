@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let currentLanguage = 'fr';
+    let currentLanguage = 'en';
 
     function getTranslation(data, field) {
         return data && data[field] && (data[field][currentLanguage] || data[field]['en']) || '';
