@@ -231,7 +231,9 @@
                     "Gestion de plusieurs systèmes 3CX, assurant la configuration avancée des scénarios d'appels ainsi que la gestion de l'infrastructure sous Linux. Réalisation de la mise à jour des systèmes 3CX de la version 18 à la version 20, garantissant une continuité de service optimale.",
                     "Gestion de projets complexes, y compris la mise en œuvre d'une infrastructure de VPN centralisé (SoftEther), garantissant la sécurité des communications entre les sites distants.",
                     "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), permettant la protection des données critiques.",
-                    "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes."
+                    "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes.",
+                    "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et des coûts maîtrisés.",
+                    "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT."
                 ],
                 "en": [
                     "Developed a private cloud offering, designed to improve IT service efficiency while reducing infrastructure costs.",
@@ -239,7 +241,9 @@
                     "Managed several 3CX systems, ensuring advanced call scenario configurations and Linux-based infrastructure management. Upgraded 3CX systems from version 18 to version 20, ensuring optimal service continuity.",
                     "Handled complex projects, including the implementation of a centralized VPN infrastructure (SoftEther), ensuring secure communications between remote sites.",
                     "Oversaw the integration of a complete backup infrastructure (Veeam with Hardened Repository), enabling the protection of critical data.",
-                    "Actively participated in strategic decisions for optimizing information systems, in collaboration with executive teams."
+                    "Actively participated in strategic decisions for optimizing information systems, in collaboration with executive teams.",
+                    "Managed IT project budgets, ensuring efficient resource allocation and cost control.",
+                    "Led continuous improvement initiatives to identify and eliminate inefficiencies in IT processes."
                 ]
             }
         },
@@ -282,14 +286,18 @@
                     "Conduite de la migration réussie d'un datacenter, minimisant les interruptions de service grâce à une planification rigoureuse et à l'utilisation d'outils avancés.",
                     "Développement et maintenance de scripts opérationnels pour automatiser les tâches répétitives, augmentant ainsi l'efficacité de l'équipe.",
                     "Encadrement et formation d'une équipe de 8 techniciens spécialisés dans le stockage, favorisant leur développement professionnel et l'amélioration des performances de l'équipe.",
-                    "Collaboration avec les équipes de sécurité pour garantir la conformité des systèmes de stockage aux normes en vigueur."
+                    "Collaboration avec les équipes de sécurité pour garantir la conformité des systèmes de stockage aux normes en vigueur.",
+                    "Gestion des budgets alloués aux projets de migration et d'infrastructure de stockage, tout en assurant le suivi des dépenses.",
+                    "Mise en place d'un programme d'amélioration continue pour réduire les délais de mise en œuvre des solutions de stockage et accroître l'efficacité de l'équipe."
                 ],
                 "en": [
                     "Managed the complete data storage ecosystem, including SAN for VM and DB storage, NAS for general and application file storage, and S3 for application files.",
                     "Successfully led the migration of a datacenter, minimizing service disruptions through rigorous planning and the use of advanced tools.",
                     "Developed and maintained operational scripts to automate repetitive tasks, increasing team efficiency.",
                     "Mentored and trained a team of 8 technicians specialized in storage, fostering their professional growth and improving team performance.",
-                    "Collaborated with security teams to ensure storage systems comply with current standards."
+                    "Collaborated with security teams to ensure storage systems comply with current standards.",
+                    "Managed budgets allocated to storage infrastructure and migration projects, ensuring expense tracking and cost control.",
+                    "Implemented a continuous improvement program to reduce solution deployment times and enhance team efficiency."
                 ]
             }
         }
