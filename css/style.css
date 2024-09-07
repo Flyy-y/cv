@@ -1,13 +1,66 @@
 /* Importation de la police Exo 2 depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap');
 
+/* Color Classes */
+.primary-text {
+    color: #1F4E79;
+}
+
+.secondary-text {
+    color: #333;
+}
+
+.tertiary-text {
+    color: #555;
+}
+
+.light-bg {
+    background-color: #f4f4f4;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #222;
+}
+
+.primary-border {
+    border-color: #1F4E79;
+}
+
+.secondary-border {
+    border-color: #ddd;
+}
+
+.progress-bar-bg {
+    background-color: #e0e0e0;
+}
+
+.progress-bar-fill {
+    background-color: #36A2EB;
+}
+
+.button-primary {
+    background-color: #1F4E79;
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #145a8a;
+}
+
+.button-active {
+    background-color: #36A2EB;
+}
+
+/* Base Styles */
 body {
     font-family: 'Exo 2', sans-serif;
     line-height: 1.6;
-    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     font-size: 0.95em;
 }
 
@@ -20,56 +73,56 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
-    color: #1F4E79;
 }
 
 h2 {
     font-size: 1.4em;
-    color: #1F4E79;
     margin-bottom: 0.75em;
     margin-top: 0.75em;
 }
 
 h3 {
     font-size: 1.3em;
-    color: #1F4E79;
     margin-bottom: 0.5em;
 }
 
 h4 {
     font-size: 1.2em;
-    color: #1F4E79;
 }
 
+/* Container */
 .container {
     max-width: 85%;
     margin: 20px auto;
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid #ddd;
-    background: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .middle-column, .right-column {
+    box-sizing: border-box;
 }
 
 .left-column {
-    width: 18%;
+    width: 25%;
     padding: 15px;
-    border-right: 2px solid #1F4E79;
-    box-sizing: border-box;
+    border-right: 2px solid;
 }
 
 .middle-column {
-    width: 67%;
+    width: 50%;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .right-column {
-    width: 15%;
+    width: 25%;
     padding: 15px;
-    box-sizing: border-box;
 }
 
+/* Profile Picture */
 .profile-pic {
     width: 100%;
     height: auto;
@@ -77,13 +130,13 @@ h4 {
     margin-bottom: 20px;
 }
 
+/* Skills Section */
 .skills-section {
     margin-bottom: 20px;
 }
 
 .skills-section h4 {
     font-size: 1.1em;
-    color: #1F4E79;
     margin-bottom: 10px;
 }
 
@@ -95,13 +148,13 @@ h4 {
 
 .skills li, #languages li, #education li, #certifications li, #professional-interests li {
     display: block;
-    margin-bottom: 10px; /* Espacement entre les éléments */
+    margin-bottom: 10px;
     font-size: 0.9em;
 }
 
+/* Progress Bar */
 .progress-bar {
     width: 60%;
-    background-color: #e0e0e0;
     border-radius: 4px;
     overflow: hidden;
     height: 8px;
@@ -109,221 +162,139 @@ h4 {
 
 .progress-bar-inner {
     height: 100%;
-    background-color: #36A2EB;
 }
 
 .language-selector-container {
     position: fixed;
     top: 20px;
     right: 20px;
-    padding: 15px;
-    background-color: #f4f4f4;
-    border-radius: 12px;
+    padding: 8px 15px; /* Smaller padding */
+    border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    border: 2px solid #1F4E79;
+    border: 2px solid; /* Use pre-defined color classes elsewhere */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .language-selector {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 }
 
 .language-selector button {
-    background-color: #1F4E79;
-    color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-.language-selector button:hover {
-    background-color: #145a8a;
-}
-
-.language-selector button.active {
-    background-color: #36A2EB;
-}
-
-.language-selector-container::before {
-    content: "Langues";
     font-size: 0.9em;
-    color: #1F4E79;
     font-weight: bold;
-    text-align: center;
-    display: block;
-    margin-bottom: 8px;
 }
 
-/* Ajustement spécifique pour la section Éducation */
+/* Initially hidden (for when user scrolls away from the top) */
+.language-hidden {
+    opacity: 0;
+    transform: translateY(-20px); /* Move it up to hide smoothly */
+}
+
+
+/* Adjustments for Specific Sections */
 #education li {
-    margin-bottom: 15px; /* Ajout d'espace entre les éléments de la liste */
-    line-height: 0.9;
+    margin-bottom: 15px;
+    line-height: 1.2;
 }
 
 #education li strong {
     font-weight: bold;
-    display: block; /* Suppression des sauts de ligne */
+    display: block;
     margin-bottom: 5px;
 }
 
 #education li i {
     font-style: italic;
-    color: #555;
-    display: block; /* Suppression des sauts de ligne */
+    display: block;
     margin-bottom: 5px;
 }
 
 #education li p {
     margin: 0;
-    margin-top: 5px; /* Réduction de l'espace avant le descriptif */
-    color: #333;
+    margin-top: 5px;
     font-size: 0.95em;
 }
 
-/* Restauration des icônes des hobbies */
+/* Hobbies Icons */
 #hobbies li i {
     margin-right: 10px;
-    color: #1F4E79;
     font-size: 1.2em;
     vertical-align: middle;
 }
 
-/* Responsive adjustments */
-@media only screen and (min-width: 1200px) {
-    .left-column {
-        width: 18%;
-    }
-    .middle-column {
-        width: 67%;
-    }
-    .right-column {
-        width: 15%;
+/* Responsive Adjustments */
+/* Include your existing media queries here */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222; /* Darker background for dark mode */
+        color: #e0e0e0; /* Light but not too light text color */
     }
 
-    .profile-pic {
-        width: 70%;
-        margin: 0 auto;
+    h1, h2, h3, h4 {
+        color: #AFCBFF; /* Brighter heading text for better visibility */
     }
 
-    h1 {
-        font-size: 1.6em;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .left-column {
-        width: 22%;
-    }
-    .middle-column {
-        width: 63%;
-    }
-    .right-column {
-        width: 15%;
+    .light-bg {
+        background-color: #333; /* Darker background for light sections */
     }
 
-    .profile-pic {
-        width: 80%;
-        margin: 0 auto;
+    .primary-text {
+        color: #AFCBFF;
+    }
+
+    .secondary-text {
+        color: #e0e0e0; /* Adjusted for readability */
+    }
+
+    .tertiary-text {
+        color: #bbb; /* Slightly darker than secondary for better contrast */
     }
 
     .container {
-        padding: 10px;
+        background-color: #333; /* Darker container background */
+        border-color: #555;
     }
 
-    h1 {
-        font-size: 1.3em;
-    }
-}
-
-@media only screen and (max-width: 992px) {
     .left-column {
-        width: 100%;
-        border-right: none;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .middle-column, .right-column {
-        width: 100%;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+        border-right-color: #555;
     }
 
     .language-selector-container {
-        position: static;
-        margin-bottom: 10px;
+        background-color: #444;
+        border-color: #555;
     }
 
-    .profile-pic {
-        width: 50%;
-        height: auto;
-        margin: 0 auto 15px auto;
-        display: block;
+    .button-primary {
+        background-color: #555;
+        color: white;
     }
 
-    h1 {
-        font-size: 1.4em;
-        text-align: center;
+    .button-primary:hover {
+        background-color: #666;
     }
 
-    .skills li {
-        font-size: 0.95em;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .left-column, .middle-column, .right-column {
-        width: 100%;
-        padding: 0 10px;
+    .progress-bar-bg {
+        background-color: #555;
     }
 
-    h1 {
-        font-size: 1.3em;
-        text-align: center;
-    }
-
-    .profile-pic {
-        width: 70%;
-        margin: 0 auto;
+    .progress-bar-fill {
+        background-color: #36A2EB;
     }
 }
 
-@media only screen and (max-width: 576px) {
-    .container {
-        padding: 5px;
-    }
-
-    h1 {
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    .profile-pic {
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .skills-section h4 {
-        font-size: 0.9em;
-    }
-
-    .skills li {
-        font-size: 0.85em;
-    }
-
-    .right-column h2 {
-        font-size: 1.1em;
-        text-align: center;
-    }
+/* Print Styles */
+@media print {
+    /* Include your existing print styles here */
 }
-

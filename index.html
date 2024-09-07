@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
-<body>
-    <!-- Sélecteur de langue -->
-    <div class="language-selector-container">
+
+<body class="light-bg">
+    <!-- Language Selector -->
+    <div class="language-selector-container light-bg primary-border">
         <div class="language-selector">
-            <button id="btn-fr" onclick="changeLanguage('fr')" class="active">Français</button>
-            <button id="btn-en" onclick="changeLanguage('en')">English</button>
+            <button id="btn-fr" onclick="changeLanguage('fr')" class="button-primary active">Français</button>
+            <button id="btn-en" onclick="changeLanguage('en')" class="button-primary">English</button>
         </div>
     </div>
 
-    <div class="container">
-        <!-- Colonne de gauche -->
-        <div class="left-column">
-            <img id="profile-pic" class="profile-pic" src="./images/profile.jpg" alt="Clément Breisch">
-            <h1 id="name">Clément BREISCH</h1>
-            <h4 id="title">Passionné d'informatique</h4>
-            <p><i class="fas fa-envelope"></i> <span id="email"></span></p>
-            <p><i class="fas fa-phone"></i> <span id="phone"></span></p>
-            <p><i class="fas fa-map-marker-alt"></i> <span id="location"></span></p>
-            <p><a id="linkedin" href="#" style="display:none;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-            <p><a id="website" href="#" style="display:none;"><i class="fas fa-globe"></i> Website</a></p>
+    <div class="container white-bg secondary-border">
+        <!-- Left Column -->
+        <div class="left-column primary-border">
+            <img id="profile-pic" class="profile-pic" src="./images/profile.jpg" alt="Profile Picture">
+            <h1 id="name" class="primary-text">Clément BREISCH</h1>
+            <h4 id="title" class="primary-text">Passionné d'informatique</h4>
+            <p class="secondary-text"><i class="fas fa-envelope"></i> <span id="email">email@example.com</span></p>
+            <p class="secondary-text"><i class="fas fa-phone"></i> <span id="phone">+33 6 12 34 56 78</span></p>
+            <p class="secondary-text"><i class="fas fa-map-marker-alt"></i> <span id="location">Paris, France</span></p>
+            <p><a id="linkedin" class="secondary-text" href="#" style="display:none;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+            <p><a id="website" class="secondary-text" href="#" style="display:none;"><i class="fas fa-globe"></i> Website</a></p>
             
-            <!-- Compétences -->
+            <!-- Skills -->
             <div id="skills">
-                <!-- Compétences générées dynamiquement -->
+                <!-- Skills dynamically generated via JavaScript -->
             </div>
         </div>
 
-        <!-- Colonne du milieu -->
+        <!-- Middle Column -->
         <div class="middle-column">
             <div id="experience">
-                <!-- Expériences générées dynamiquement -->
+                <!-- Experience dynamically generated via JavaScript -->
             </div>
         </div>
 
-        <!-- Colonne de droite -->
+        <!-- Right Column -->
         <div class="right-column">
-            <h2 id="languages-title">Langues</h2>
+            <!-- Languages -->
+            <h2 id="languages-title" class="primary-text">Langues</h2>
             <ul id="languages">
-                <!-- Langues générées dynamiquement -->
+                <!-- Languages dynamically generated via JavaScript -->
             </ul>
-            
-            <h2 id="education-title">Éducation</h2>
+
+            <!-- Education -->
+            <h2 id="education-title" class="primary-text">Éducation</h2>
             <ul id="education">
-                <!-- Éducation générée dynamiquement -->
+                <!-- Education dynamically generated via JavaScript -->
             </ul>
 
-            <h2 id="certifications-title">Certifications</h2>
+            <!-- Certifications -->
+            <h2 id="certifications-title" class="primary-text">Certifications</h2>
             <ul id="certifications">
-                <!-- Certifications générées dynamiquement -->
+                <!-- Certifications dynamically generated via JavaScript -->
             </ul>
 
-            <h2 id="professional-interests-title">Centres d'intérêt professionnels</h2>
+            <!-- Professional Interests -->
+            <h2 id="professional-interests-title" class="primary-text">Centres d'intérêt professionnels</h2>
             <ul id="professional-interests">
-                <!-- Centres d'intérêt professionnels générés dynamiquement -->
+                <!-- Professional Interests dynamically generated via JavaScript -->
             </ul>
 
-            <h2 id="hobbies-title">Hobbies</h2>
+            <!-- Hobbies -->
+            <h2 id="hobbies-title" class="primary-text">Hobbies</h2>
             <ul id="hobbies">
-                <!-- Hobbies générés dynamiquement -->
+                <!-- Hobbies dynamically generated via JavaScript -->
             </ul>
         </div>
     </div>
 </body>
+
 </html>
