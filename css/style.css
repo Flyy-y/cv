@@ -294,7 +294,88 @@ h4 {
     }
 }
 
-/* Print Styles */
-@media print {
-    /* Include your existing print styles here */
+/* Large screens */
+@media only screen and (min-width: 1200px) {
+    .left-column {
+        max-width: 20%;
+    }
+    .middle-column {
+        max-width: 60%;
+    }
+    .right-column {
+        max-width: 20%;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-column, .middle-column, .right-column {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 70%; /* Make the profile picture smaller for tablets */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 300px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .left-column, .middle-column, .right-column {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .profile-pic {
+        width: 60%; /* Further reduce size for smaller mobile devices */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+/* Small Mobile */
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+
+    .profile-pic {
+        width: 50%; /* Reduce size for small mobile devices */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .right-column h2 {
+        font-size: 1.1em;
+        text-align: center;
+    }
 }
