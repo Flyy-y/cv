@@ -233,7 +233,9 @@
                     "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), permettant la protection des données critiques.",
                     "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes.",
                     "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et des coûts maîtrisés.",
-                    "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT."
+                    "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT.",
+                    "Rédaction de documentations techniques et opérationnelles pour les équipes IT.",
+                    "Mise en place d'un environnement sécurisé EDR pour plus de 2000 postes de travail."
                 ],
                 "en": [
                     "Developed a private cloud offering, designed to improve IT service efficiency while reducing infrastructure costs.",
@@ -243,7 +245,9 @@
                     "Oversaw the integration of a complete backup infrastructure (Veeam with Hardened Repository), enabling the protection of critical data.",
                     "Actively participated in strategic decisions for optimizing information systems, in collaboration with executive teams.",
                     "Managed IT project budgets, ensuring efficient resource allocation and cost control.",
-                    "Led continuous improvement initiatives to identify and eliminate inefficiencies in IT processes."
+                    "Led continuous improvement initiatives to identify and eliminate inefficiencies in IT processes.",
+                    "Wrote technical and operational documentation for the IT teams.",
+                    "Set up a secure EDR environment for over 2000 workstations."
                 ]
             }
         },
@@ -277,7 +281,7 @@
                 "fr": "Architecte d'infrastructure stockage",
                 "en": "Storage Infrastructure Architect"
             },
-            "employer": "Société Générale",
+            "employer": "Société Générale (via Synapsys IT)",
             "city": "Val-de-Fontenay",
             "country": "France",
             "details": {
@@ -288,7 +292,8 @@
                     "Encadrement et formation d'une équipe de 8 techniciens spécialisés dans le stockage, favorisant leur développement professionnel et l'amélioration des performances de l'équipe.",
                     "Collaboration avec les équipes de sécurité pour garantir la conformité des systèmes de stockage aux normes en vigueur.",
                     "Gestion des budgets alloués aux projets de migration et d'infrastructure de stockage, tout en assurant le suivi des dépenses.",
-                    "Mise en place d'un programme d'amélioration continue pour réduire les délais de mise en œuvre des solutions de stockage et accroître l'efficacité de l'équipe."
+                    "Mise en place d'un programme d'amélioration continue pour réduire les délais de mise en œuvre des solutions de stockage et accroître l'efficacité de l'équipe.",
+                    "Rédaction de documentations techniques et opérationnelles pour les équipes de stockage."
                 ],
                 "en": [
                     "Managed the complete data storage ecosystem, including SAN for VM and DB storage, NAS for general and application file storage, and S3 for application files.",
@@ -297,7 +302,8 @@
                     "Mentored and trained a team of 8 technicians specialized in storage, fostering their professional growth and improving team performance.",
                     "Collaborated with security teams to ensure storage systems comply with current standards.",
                     "Managed budgets allocated to storage infrastructure and migration projects, ensuring expense tracking and cost control.",
-                    "Implemented a continuous improvement program to reduce solution deployment times and enhance team efficiency."
+                    "Implemented a continuous improvement program to reduce solution deployment times and enhance team efficiency.",
+                    "Wrote technical and operational documentation for the storage teams."
                 ]
             }
         }
