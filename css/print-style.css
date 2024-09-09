@@ -1,0 +1,105 @@
+@media print {
+    body {
+        font-family: 'Exo 2', sans-serif;
+        color: #1F4E79;
+        margin: 10px;
+        font-size: 10pt;
+        line-height: 1.4;
+    }
+
+    h1 {
+        font-size: 18pt;
+        color: #1F4E79;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 12pt;
+        color: #1F4E79;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #1F4E79;
+    }
+
+    h4 {
+        font-size: 10pt;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    p, ul {
+        margin-bottom: 5px;
+        font-size: 9pt;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        padding: 10px;
+        page-break-inside: avoid;
+    }
+
+    .left-column {
+        width: 25%;
+        padding-right: 15px;
+    }
+
+    .right-column {
+        width: 70%;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+    .skills-section {
+        margin-bottom: 15px; /* Augmenter l'espace entre les sections */
+    }
+
+    .progress-bar {
+        height: 6px;
+        border-radius: 3px;
+        background-color: #e0e0e0;
+        margin-bottom: 10px; /* Augmenter l'espace sous les barres de progression */
+    }
+
+    .progress-bar-fill {
+        background-color: #36A2EB;
+        height: 100%;
+        width: 70%;
+        border-radius: 3px;
+    }
+
+    /* Suppress URL appearance in printed version */
+    a[href]:after {
+        content: "";
+    }
+
+    /* Gestion des sauts de page */
+    .right-column{
+        page-break-inside: avoid; /* Empêcher toute coupure à l'intérieur de la colonne droite */
+    }
+
+    .experience-item, .education-item, .certification-item, .professional-interest-item {
+        page-break-inside: avoid; /* Empêcher que les éléments importants soient coupés */
+        margin-bottom: 20px;
+    }
+
+    /* Ajustement de l'espace entre les sections dans la colonne gauche */
+    .left-column h2, .left-column h4, .left-column p, .left-column ul {
+        margin-bottom: 15px;
+    }
+}

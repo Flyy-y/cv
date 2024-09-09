@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     let currentLanguage = 'en';
 
+    if (window.location.hash) {
+        currentLanguage = window.location.hash.substring(1);
+    }
+
     let lastScrollTop = 0;
     const languageSelectorContainer = document.querySelector('.language-selector-container');
 
@@ -192,6 +196,24 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             })
             .catch(error => console.error('Erreur lors du chargement du CV:', error));
+    }
+
+    window.printCv = function () {
+        var printWindow = window.open(`printable.html#${currentLanguage}`, 'Print', 'left=200, top=200, width=950, height=500, toolbar=0, resizable=0');
+
+        printWindow.addEventListener('DOMContentLoaded', function() {
+            if (Boolean(printWindow.chrome)) {
+                this.setTimeout(function() {
+                    printWindow.print();
+                }, 250);
+                setTimeout(function(){
+                    printWindow.close();
+                }, 500);
+            } else {
+                printWindow.print();
+                printWindow.close();
+            }
+        }, true);
     }
 
     // Load default language
