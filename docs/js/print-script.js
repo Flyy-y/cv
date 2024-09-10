@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Chargement du résumé (profil)
                 const profileElement = document.getElementById('profile');
                 if (profileElement) {
-                    profileElement.textContent = getTranslation(data, 'profile');
+                    profileElement.innerHTML = getTranslation(data, 'profile');
                 }
 
                 // Mettre à jour les titres des sections dynamiquement
