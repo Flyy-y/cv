@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function getTranslation(data, field) {
-        return data && data[field] && (data[field][currentLanguage] || data[field]['en']) || '';
+        let text = data && data[field] && (data[field][currentLanguage] || data[field]['en']) || '';
+        if (text.replace && typeof text.replace === 'function')
+            return text.replace(/\n/g, '<br>');
+        return text;
     }
 
     function loadLanguage(language) {
@@ -205,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (Boolean(printWindow.chrome)) {
                 this.setTimeout(function() {
                     printWindow.print();
-                }, 250);
+                }, 500);
                 setTimeout(function(){
                     printWindow.close();
                 }, 500);

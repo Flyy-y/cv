@@ -160,9 +160,10 @@ p, ul, li {
 
 /* Progress Bar */
 .progress-bar {
-    width: 60%;
+    width: 85%;
     border-radius: 4px;
     overflow: hidden;
+    margin-bottom: 10px;
     height: 8px;
 }
 
