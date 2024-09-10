@@ -30,6 +30,7 @@
     p, ul {
         margin-bottom: 5px;
         font-size: 9pt;
+        text-align: justify;
     }
 
     .container {

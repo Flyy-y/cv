@@ -90,6 +90,12 @@ h4 {
     font-size: 1.2em;
 }
 
+p, ul, li {
+    text-align: justify;
+    text-justify: inter-character;
+    justify-self: center;
+}
+
 /* Container */
 .container {
     max-width: 85%;
