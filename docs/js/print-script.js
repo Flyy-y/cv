@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     // Fonction pour récupérer les traductions en fonction de la langue
     function getTranslation(data, field) {
-        return data && data[field] && (data[field][currentLanguage] || data[field]['en']) || '';
+        let text = data && data[field] && (data[field][currentLanguage] || data[field]['en']) || '';
+        if (text.replace && typeof text.replace === 'function')
+            return text.replace(/\n/g, '<br>');
+        return text;
     }
 
     // Fonction pour charger le CV et les traductions
