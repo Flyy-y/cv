@@ -1,18 +1,21 @@
 {
     "name": {
         "fr": "Clément BREISCH",
-        "en": "Clément BREISCH"
+        "en": "Clément BREISCH",
+        "de": "Clément BREISCH"
     },
     "title": {
         "fr": "Passionné d'informatique",
-        "en": "IT Enthusiast"
+        "en": "IT Enthusiast",
+        "de": "IT-Begeisterter"
     },
     "contact": {
         "email": "clement@breisch.fr",
         "phone": "+33 6 06 43 11 02",
         "location": {
             "fr": "Seine et Marne, France",
-            "en": "Seine et Marne, France"
+            "en": "Seine et Marne, France",
+            "de": "Seine et Marne, Frankreich"
         },
         "linkedin": "https://www.linkedin.com/in/clementbreisch/",
         "website": "https://cv.breisch.fr"
@@ -21,62 +24,74 @@
     "sections": {
         "languages": {
             "fr": "Langues",
-            "en": "Languages"
+            "en": "Languages",
+            "de": "Sprachen"
         },
         "education": {
             "fr": "Formation",
-            "en": "Education"
+            "en": "Education",
+            "de": "Ausbildung"
         },
         "hobbies": {
             "fr": "Loisirs",
-            "en": "Hobbies"
+            "en": "Hobbies",
+            "de": "Hobbys"
         },
         "certifications": {
             "fr": "Certifications",
-            "en": "Certifications"
+            "en": "Certifications",
+            "de": "Zertifizierungen"
         },
         "professionalInterests": {
             "fr": "Intérêts professionnels",
-            "en": "Professional Interests"
+            "en": "Professional Interests",
+            "de": "Berufliche Interessen"
         },
         "summary": {
             "fr": "Résumé professionnel",
-            "en": "Professional Summary"
+            "en": "Professional Summary",
+            "de": "Beruflicher Werdegang"
         },
         "experience": {
             "fr": "Expérience professionnelle",
-            "en": "Professional Experience"
+            "en": "Professional Experience",
+            "de": "Berufserfahrung"
         }
     },
     "profile": {
-        "fr": "Architecte d'infrastructures avec plus de 6 ans d'expérience professionnelle et 10 ans d'expertise personnelle dans le domaine informatique, spécialisé dans l'intégration de solutions IT innovantes, la gestion de projets complexes et la transformation numérique. Reconnu pour ma capacité à optimiser les systèmes de stockage, de virtualisation et à développer des outils sur mesure, je combine une solide expertise technique avec un leadership éprouvé, permettant à mes équipes de surpasser les objectifs fixés. Ma passion pour l'innovation technologique, alliée à une curiosité constante pour les nouvelles tendances, m'a permis de mener avec succès plusieurs projets stratégiques dans des environnements exigeants. Je suis toujours motivé par le défi d'apporter des solutions à des problématiques techniques complexes tout en anticipant les besoins futurs de l'entreprise.",
-        "en": "Infrastructure architect with over 6 years of professional experience and 10 years of personal expertise in IT, specializing in the integration of innovative solutions, complex project management, and digital transformation. Recognized for my ability to optimize storage and virtualization systems, as well as developing custom tools, I bring strong technical expertise combined with proven leadership, driving teams to exceed their targets. My passion for technological innovation, coupled with a constant curiosity for emerging trends, has enabled me to successfully lead strategic projects in demanding environments. I am always motivated by the challenge of providing solutions to complex technical issues while anticipating the future needs of the business."
+        "fr": "Architecte d'infrastructures avec plus de 6 ans d'expérience professionnelle et 10 ans d'expertise personnelle dans le domaine informatique, spécialisé dans l'intégration de solutions IT innovantes, la gestion de projets complexes et la transformation numérique.\n\nReconnu pour ma capacité à optimiser les systèmes de stockage, de virtualisation et à développer des outils sur mesure, je combine une solide expertise technique avec un leadership éprouvé, permettant à mes équipes de surpasser les objectifs fixés.\n\nMa passion pour l'innovation technologique, alliée à une curiosité constante pour les nouvelles tendances, m'a permis de mener avec succès plusieurs projets stratégiques dans des environnements exigeants. Je suis toujours motivé par le défi d'apporter des solutions à des problématiques techniques complexes tout en anticipant les besoins futurs de l'entreprise.",
+        "en": "Infrastructure architect with over 6 years of professional experience and 10 years of personal expertise in IT, specializing in the integration of innovative solutions, complex project management, and digital transformation.\n\nRecognized for my ability to optimize storage and virtualization systems, as well as developing custom tools, I bring strong technical expertise combined with proven leadership, driving teams to exceed their targets.\n\nMy passion for technological innovation, coupled with a constant curiosity for emerging trends, has enabled me to successfully lead strategic projects in demanding environments. I am always motivated by the challenge of providing solutions to complex technical issues while anticipating the future needs of the business.",
+        "de": "Infrastrukturarchitekt mit über 6 Jahren Berufserfahrung und 10 Jahren persönlicher Expertise in der IT, spezialisiert auf die Integration innovativer Lösungen, das Management komplexer Projekte und die digitale Transformation.\n\nAnerkannt für meine Fähigkeit, Speicher- und Virtualisierungssysteme zu optimieren und maßgeschneiderte Werkzeuge zu entwickeln, bringe ich starke technische Expertise in Kombination mit bewährtem Führungsstil ein und motiviere Teams dazu, ihre Ziele zu übertreffen.\n\nMeine Leidenschaft für technologische Innovationen, gepaart mit einer ständigen Neugier auf neue Trends, hat es mir ermöglicht, erfolgreich strategische Projekte in anspruchsvollen Umgebungen zu leiten. Ich bin stets motiviert durch die Herausforderung, Lösungen für komplexe technische Probleme zu finden und gleichzeitig die zukünftigen Bedürfnisse des Unternehmens vorauszusehen."
     },
     "skills": [
         {
             "category": {
                 "fr": "Virtualisation",
-                "en": "Virtualization"
+                "en": "Virtualization",
+                "de": "Virtualisierung"
             },
             "items": [
                 {
                     "name": {
                         "fr": "Écosystème VMware",
-                        "en": "VMware Ecosystem"
+                        "en": "VMware Ecosystem",
+                        "de": "VMware-Ökosystem"
                     },
                     "level": 95
                 },
                 {
                     "name": {
                         "fr": "Sauvegarde Veeam",
-                        "en": "Veeam Backup"
+                        "en": "Veeam Backup",
+                        "de": "Veeam-Sicherung"
                     },
                     "level": 95
                 },
                 {
                     "name": {
                         "fr": "Proxmox",
-                        "en": "Proxmox"
+                        "en": "Proxmox",
+                        "de": "Proxmox"
                     },
                     "level": 65
                 }
@@ -85,41 +100,47 @@
         {
             "category": {
                 "fr": "Système",
-                "en": "System"
+                "en": "System",
+                "de": "System"
             },
             "items": [
                 {
                     "name": {
                         "fr": "Linux (DEB)",
-                        "en": "Linux (DEB)"
+                        "en": "Linux (DEB)",
+                        "de": "Linux (DEB)"
                     },
                     "level": 75
                 },
                 {
                     "name": {
                         "fr": "SaltStack",
-                        "en": "SaltStack"
+                        "en": "SaltStack",
+                        "de": "SaltStack"
                     },
                     "level": 65
                 },
                 {
                     "name": {
                         "fr": "Serveur Windows",
-                        "en": "Windows Server"
+                        "en": "Windows Server",
+                        "de": "Windows-Server"
                     },
                     "level": 80
                 },
                 {
                     "name": {
                         "fr": "Active Directory",
-                        "en": "Active Directory"
+                        "en": "Active Directory",
+                        "de": "Active Directory"
                     },
                     "level": 75
                 },
                 {
                     "name": {
                         "fr": "Microsoft Exchange",
-                        "en": "Microsoft Exchange"
+                        "en": "Microsoft Exchange",
+                        "de": "Microsoft Exchange"
                     },
                     "level": 70
                 }
@@ -127,64 +148,97 @@
         },
         {
             "category": {
-                "fr": "Gestion",
-                "en": "Management"
+                "fr": "Gestion et organisation",
+                "en": "Management and Organization",
+                "de": "Management und Organisation"
             },
             "items": [
                 {
                     "name": {
                         "fr": "Gestion d'équipe",
-                        "en": "Team Management"
+                        "en": "Team Management",
+                        "de": "Teamführung"
                     },
-                    "level": 85
+                    "level": 75
                 },
                 {
                     "name": {
                         "fr": "Chefferie de projet",
-                        "en": "Project Management"
+                        "en": "Project Management",
+                        "de": "Projektmanagement"
                     },
                     "level": 80
+                },
+                {
+                    "name": {
+                        "fr": "Gestion de budget",
+                        "en": "Budget Management",
+                        "de": "Budgetverwaltung"
+                    },
+                    "level": 75
+                },
+                {
+                    "name": {
+                        "fr": "Amélioration continue",
+                        "en": "Continuous Improvement",
+                        "de": "Kontinuierliche Verbesserung"
+                    },
+                    "level": 90
+                },
+                {
+                    "name": {
+                        "fr": "Documentation",
+                        "en": "Documentation",
+                        "de": "Dokumentation"
+                    },
+                    "level": 85
                 }
             ]
         },
         {
             "category": {
                 "fr": "Développement",
-                "en": "Development"
+                "en": "Development",
+                "de": "Entwicklung"
             },
             "items": [
                 {
                     "name": {
                         "fr": "Python",
-                        "en": "Python"
-                    },
-                    "level": 80
-                },
-                {
-                    "name": {
-                        "fr": "Node.JS",
-                        "en": "Node.JS"
+                        "en": "Python",
+                        "de": "Python"
                     },
                     "level": 85
                 },
                 {
                     "name": {
+                        "fr": "Node.JS",
+                        "en": "Node.JS",
+                        "de": "Node.JS"
+                    },
+                    "level": 80
+                },
+                {
+                    "name": {
                         "fr": "C, C++",
-                        "en": "C, C++"
+                        "en": "C, C++",
+                        "de": "C, C++"
                     },
                     "level": 60
                 },
                 {
                     "name": {
                         "fr": "C#",
-                        "en": "C#"
+                        "en": "C#",
+                        "de": "C#"
                     },
                     "level": 70
                 },
                 {
                     "name": {
                         "fr": "Git",
-                        "en": "Git"
+                        "en": "Git",
+                        "de": "Git"
                     },
                     "level": 75
                 }
@@ -193,22 +247,49 @@
         {
             "category": {
                 "fr": "Réseau",
-                "en": "Networking"
+                "en": "Networking",
+                "de": "Netzwerk"
             },
             "items": [
                 {
                     "name": {
                         "fr": "Switch IP",
-                        "en": "IP Switch"
+                        "en": "IP Switch",
+                        "de": "IP-Switch"
                     },
                     "level": 65
                 },
                 {
                     "name": {
                         "fr": "Switch SAN Fibre Channel",
-                        "en": "SAN Fibre Channel Switch"
+                        "en": "SAN Fibre Channel Switch",
+                        "de": "SAN Fibre Channel Switch"
                     },
                     "level": 90
+                },
+                {
+                    "name": {
+                        "fr": "Firewall",
+                        "en": "Firewall",
+                        "de": "Firewall"
+                    },
+                    "level": 75
+                },
+                {
+                    "name": {
+                        "fr": "VPN",
+                        "en": "VPN",
+                        "de": "VPN"
+                    },
+                    "level": 80
+                },
+                {
+                    "name": {
+                        "fr": "Protocoles TCP/IP",
+                        "en": "TCP/IP Protocols",
+                        "de": "TCP/IP-Protokolle"
+                    },
+                    "level": 70
                 }
             ]
         }
@@ -219,7 +300,8 @@
             "endDate": "2024",
             "title": {
                 "fr": "Architecte Infrastructure Système",
-                "en": "Infrastructure Systems Architect"
+                "en": "Infrastructure Systems Architect",
+                "de": "Infrastruktur-Systemarchitekt"
             },
             "employer": "TNS Info",
             "city": "Fontainebleau",
@@ -235,7 +317,7 @@
                     "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et des coûts maîtrisés.",
                     "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT.",
                     "Rédaction de documentations techniques et opérationnelles pour les équipes IT.",
-                    "Mise en place d'un environnement sécurisé EDR pour plus de 2 000 postes de travail."
+                    "Mise en place et gestion d'un produit de sécurité EDR pour plus de 2 000 postes de travail."
                 ],
                 "en": [
                     "Developed a private cloud offering, designed to improve IT service efficiency while reducing infrastructure costs.",
@@ -247,7 +329,19 @@
                     "Managed IT project budgets, ensuring efficient resource allocation and cost control.",
                     "Led continuous improvement initiatives to identify and eliminate inefficiencies in IT processes.",
                     "Authored technical and operational documentation for the IT teams.",
-                    "Set up a secure EDR environment for over 2,000 workstations."
+                    "Implemented and managed an EDR security product for over 2,000 workstations."
+                ],
+                "de": [
+                    "Entwicklung eines privaten Cloud-Angebots zur Verbesserung der IT-Service-Effizienz und zur Senkung der Infrastrukturkosten.",
+                    "Implementierung einer robusten VMware-Infrastruktur (vSAN, ESXi), die eine hohe Verfügbarkeit und eine optimierte Ressourcennutzung gewährleistet.",
+                    "Verwaltung mehrerer 3CX-Systeme, einschließlich fortgeschrittener Anrufkonfigurationsszenarien und Linux-basierter Infrastrukturverwaltung. Aktualisierung der 3CX-Systeme von Version 18 auf Version 20, um eine optimale Servicekontinuität zu gewährleisten.",
+                    "Abwicklung komplexer Projekte, einschließlich der Implementierung einer zentralisierten VPN-Infrastruktur (SoftEther), die sichere Kommunikation zwischen entfernten Standorten ermöglicht.",
+                    "Überwachung der Integration einer vollständigen Backup-Infrastruktur (Veeam mit Hardened Repository) zur Sicherung kritischer Daten.",
+                    "Aktive Teilnahme an strategischen Entscheidungen zur Optimierung der Informationssysteme in Zusammenarbeit mit den Führungsteams.",
+                    "Verwaltung von IT-Projektbudgets zur effizienten Ressourcenzuweisung und Kostenkontrolle.",
+                    "Leitung von kontinuierlichen Verbesserungsinitiativen zur Identifizierung und Beseitigung von Ineffizienzen in IT-Prozessen.",
+                    "Verfassen technischer und betrieblicher Dokumentationen für die IT-Teams.",
+                    "Implementierung und Verwaltung eines EDR-Sicherheitsprodukts für über 2.000 Arbeitsplätze."
                 ]
             }
         },
@@ -256,7 +350,8 @@
             "endDate": "2021",
             "title": {
                 "fr": "Architecte en charge du développement Métal",
-                "en": "Metal Development Architect"
+                "en": "Metal Development Architect",
+                "de": "Architekt für Metal-Entwicklung"
             },
             "employer": "Ubisoft",
             "city": "Montreuil",
@@ -271,6 +366,11 @@
                     "Developed custom tools for inventory and automated deployment of physical servers, reducing setup time and human errors.",
                     "Collaborated with development and operations teams to improve hardware infrastructure deployment processes.",
                     "Introduced best practices for managing hardware infrastructure, contributing to reduced operational costs."
+                ],
+                "de": [
+                    "Entwicklung benutzerdefinierter Tools für die Bestandsaufnahme und den automatisierten Einsatz physischer Server, wodurch die Einrichtungszeit und menschliche Fehler reduziert wurden.",
+                    "Zusammenarbeit mit Entwicklungs- und Betriebsteams zur Verbesserung der Prozesse für den Einsatz von Hardware-Infrastrukturen.",
+                    "Einführung bewährter Verfahren für das Management der Hardware-Infrastruktur, was zu einer Reduzierung der Betriebskosten beitrug."
                 ]
             }
         },
@@ -279,7 +379,8 @@
             "endDate": "2021",
             "title": {
                 "fr": "Architecte d'infrastructure stockage",
-                "en": "Storage Infrastructure Architect"
+                "en": "Storage Infrastructure Architect",
+                "de": "Speicherinfrastruktur-Architekt"
             },
             "employer": "Société Générale (via Synapsys IT)",
             "city": "Val-de-Fontenay",
@@ -304,6 +405,16 @@
                     "Managed budgets allocated to storage infrastructure and migration projects, ensuring expense tracking and cost control.",
                     "Implemented a continuous improvement program to reduce solution deployment times and enhance team efficiency.",
                     "Authored technical and operational documentation for the storage teams."
+                ],
+                "de": [
+                    "Verwaltung des gesamten Datenspeicher-Ökosystems, einschließlich SAN für VM- und DB-Speicher, NAS für allgemeine und anwendungsbezogene Dateispeicherung und S3 für Anwendungsdateien.",
+                    "Erfolgreiche Durchführung der Migration eines Rechenzentrums, Minimierung von Dienstunterbrechungen durch strikte Planung und den Einsatz fortschrittlicher Werkzeuge.",
+                    "Entwicklung und Wartung von Betriebsskripten zur Automatisierung sich wiederholender Aufgaben, wodurch die Effizienz des Teams gesteigert wurde.",
+                    "Betreuung und Schulung eines Teams von acht auf Speicher spezialisierten Technikern, Förderung ihrer beruflichen Entwicklung und Verbesserung der Teamleistung.",
+                    "Zusammenarbeit mit Sicherheitsteams, um sicherzustellen, dass die Speichersysteme den aktuellen Standards entsprechen.",
+                    "Verwaltung der Budgets für Speicherinfrastruktur- und Migrationsprojekte, Gewährleistung der Ausgabenüberwachung und Kostenkontrolle.",
+                    "Implementierung eines kontinuierlichen Verbesserungsprogramms zur Reduzierung der Lösungsbereitstellungszeiten und Steigerung der Teameffizienz.",
+                    "Verfassen technischer und betrieblicher Dokumentationen für die Speicherteams."
                 ]
             }
         }
@@ -313,13 +424,15 @@
             "year": "2018",
             "degree": {
                 "fr": "École 42",
-                "en": "42 School"
+                "en": "42 School",
+                "de": "42-Schule"
             },
             "city": "Paris",
             "country": "France",
             "details": {
                 "fr": "Programme intensif de développement logiciel.",
-                "en": "Intensive software development program."
+                "en": "Intensive software development program.",
+                "de": "Intensives Softwareentwicklungsprogramm."
             }
         }
     ],
@@ -327,46 +440,76 @@
         {
             "name": {
                 "fr": "Français",
-                "en": "French"
+                "en": "French",
+                "de": "Französisch"
             },
             "level": 100
         },
         {
             "name": {
                 "fr": "Anglais",
-                "en": "English"
+                "en": "English",
+                "de": "Englisch"
             },
-            "level": 85
+            "level": 90
         }
     ],
     "hobbies": [
         {
             "name": {
                 "fr": "Informatique",
-                "en": "Computing"
+                "en": "Computing",
+                "de": "Informatik"
             },
             "icon": "fas fa-keyboard"
         },
         {
             "name": {
                 "fr": "Jeux vidéo",
-                "en": "Video Games"
+                "en": "Video Games",
+                "de": "Videospiele"
             },
             "icon": "fas fa-gamepad"
         },
         {
             "name": {
                 "fr": "Cinéma",
-                "en": "Cinema"
+                "en": "Cinema",
+                "de": "Kino"
             },
             "icon": "fas fa-film"
         },
         {
             "name": {
-                "fr": "Photographie",
-                "en": "Photography"
+                "fr": "Jeu de rôle",
+                "en": "Role Playing Games",
+                "de": "Rollenspiele"
             },
-            "icon": "fas fa-camera"
+            "icon": "fas fa-dice-d20"
+        },
+        {
+            "name": {
+                "fr": "Voyages",
+                "en": "Travels",
+                "de": "Reisen"
+            },
+            "icon": "fas fa-globe"
+        },
+        {
+            "name": {
+                "fr": "Karting",
+                "en": "Karting",
+                "de": "Kartfahren"
+            },
+            "icon": "fas fa-car"
+        },
+        {
+            "name": {
+                "fr": "Course automobile",
+                "en": "Car Racing",
+                "de": "Autorennen"
+            },
+            "icon": "fas fa-flag-checkered"
         }
     ],
     "certifications": [
@@ -374,21 +517,24 @@
             "year": "2018",
             "title": {
                 "fr": "Cisco Certified Network Associate",
-                "en": "Cisco Certified Network Associate"
+                "en": "Cisco Certified Network Associate",
+                "de": "Cisco Certified Network Associate"
             }
         },
         {
             "year": "2020",
             "title": {
                 "fr": "VMware Certified Professional 7.0 - Data Center Virtualization",
-                "en": "VMware Certified Professional 7.0 - Data Center Virtualization"
+                "en": "VMware Certified Professional 7.0 - Data Center Virtualization",
+                "de": "VMware Certified Professional 7.0 - Data Center Virtualization"
             }
         },
         {
             "year": "2021",
             "title": {
                 "fr": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design",
-                "en": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design"
+                "en": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design",
+                "de": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design"
             }
         }
     ],
@@ -396,25 +542,29 @@
         {
             "name": {
                 "fr": "Automatisation des tâches",
-                "en": "Task Automation"
+                "en": "Task Automation",
+                "de": "Aufgabenautomatisierung"
             }
         },
         {
             "name": {
                 "fr": "Sécurité des systèmes",
-                "en": "System Security"
+                "en": "System Security",
+                "de": "Systemsicherheit"
             }
         },
         {
             "name": {
                 "fr": "Développement d'outils",
-                "en": "Tool Development"
+                "en": "Tool Development",
+                "de": "Werkzeugentwicklung"
             }
         },
         {
             "name": {
                 "fr": "Logiciel libre",
-                "en": "Open Source Software"
+                "en": "Open Source Software",
+                "de": "Open-Source-Software"
             }
         }
     ]
