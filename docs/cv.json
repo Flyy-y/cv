@@ -5,9 +5,9 @@
         "de": "Clément BREISCH"
     },
     "title": {
-        "fr": "Passionné d'informatique",
-        "en": "IT Enthusiast",
-        "de": "IT-Begeisterter"
+        "fr": "Spécialiste en Virtualisation, Stockage et Sécurité des Systèmes",
+        "en": "Specialist in Virtualization, Storage, and Systems Security",
+        "de": "Spezialist für Virtualisierung, Speicher und Systemsicherheit"
     },
     "contact": {
         "email": "clement@breisch.fr",
@@ -204,6 +204,14 @@
             "items": [
                 {
                     "name": {
+                        "fr": "PowerShell",
+                        "en": "PowerShell",
+                        "de": "PowerShell"
+                    },
+                    "level": 85
+                },
+                {
+                    "name": {
                         "fr": "Python",
                         "en": "Python",
                         "de": "Python"
@@ -308,39 +316,39 @@
             "country": "France",
             "details": {
                 "fr": [
-                    "Développement d'une offre de cloud privé, conçue pour améliorer l'efficacité des services IT tout en réduisant les coûts d'infrastructure.",
+                    "Développement d'une offre de cloud privé pour améliorer l'efficacité des services IT et réduire les coûts d'infrastructure.",
                     "Mise en place d'une infrastructure VMware (vSAN, ESXi) robuste, assurant une haute disponibilité et une gestion optimisée des ressources.",
-                    "Gestion de plusieurs systèmes 3CX, assurant la configuration avancée des scénarios d'appels ainsi que la gestion de l'infrastructure sous Linux. Réalisation de la mise à jour des systèmes 3CX de la version 18 à la version 20, garantissant une continuité de service optimale.",
-                    "Gestion de projets complexes, y compris la mise en œuvre d'une infrastructure de VPN centralisé (SoftEther), garantissant la sécurité des communications entre les sites distants.",
-                    "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), permettant la protection des données critiques.",
+                    "Gestion de plusieurs systèmes 3CX, incluant la configuration avancée des scénarios d'appels ainsi que la gestion de l'infrastructure sous Linux. Mise à jour des systèmes 3CX de la version 18 à la version 20, garantissant une continuité de service optimale.",
+                    "Gestion de projets complexes, incluant la mise en œuvre d'une infrastructure de VPN centralisé (SoftEther) pour sécuriser les communications entre sites distants.",
+                    "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), assurant la protection des données critiques.",
                     "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes.",
-                    "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et des coûts maîtrisés.",
+                    "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et une maîtrise des coûts.",
                     "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT.",
                     "Rédaction de documentations techniques et opérationnelles pour les équipes IT.",
                     "Mise en place et gestion d'un produit de sécurité EDR pour plus de 2 000 postes de travail."
                 ],
                 "en": [
-                    "Developed a private cloud offering, designed to improve IT service efficiency while reducing infrastructure costs.",
-                    "Implemented a robust VMware infrastructure (vSAN, ESXi), ensuring high availability and optimized resource management.",
-                    "Managed several 3CX systems, ensuring advanced call scenario configurations and Linux-based infrastructure management. Upgraded 3CX systems from version 18 to version 20, ensuring optimal service continuity.",
-                    "Handled complex projects, including the implementation of a centralized VPN infrastructure (SoftEther), ensuring secure communications between remote sites.",
-                    "Oversaw the integration of a complete backup infrastructure (Veeam with Hardened Repository), enabling the protection of critical data.",
-                    "Actively participated in strategic decisions for optimizing information systems, in collaboration with executive teams.",
-                    "Managed IT project budgets, ensuring efficient resource allocation and cost control.",
-                    "Led continuous improvement initiatives to identify and eliminate inefficiencies in IT processes.",
-                    "Authored technical and operational documentation for the IT teams.",
-                    "Implemented and managed an EDR security product for over 2,000 workstations."
+                    "Development of a private cloud offering to improve IT service efficiency and reduce infrastructure costs.",
+                    "Implementation of a robust VMware infrastructure (vSAN, ESXi), ensuring high availability and optimized resource management.",
+                    "Management of multiple 3CX systems, including advanced call scenario configurations and Linux-based infrastructure management. Upgrade of 3CX systems from version 18 to version 20, ensuring optimal service continuity.",
+                    "Management of complex projects, including the implementation of a centralized VPN infrastructure (SoftEther) to secure communications between remote sites.",
+                    "Supervision of the integration of a complete backup infrastructure (Veeam with Hardened Repository), ensuring the protection of critical data.",
+                    "Active participation in strategic decisions for optimizing information systems in collaboration with executive teams.",
+                    "Implementation and monitoring of budgets for IT projects, ensuring efficient resource allocation and cost control.",
+                    "Initiation of continuous improvement processes to identify and eliminate inefficiencies in IT processes.",
+                    "Creation of technical and operational documentation for IT teams.",
+                    "Implementation and management of an EDR security product for over 2,000 workstations."
                 ],
                 "de": [
                     "Entwicklung eines privaten Cloud-Angebots zur Verbesserung der IT-Service-Effizienz und zur Senkung der Infrastrukturkosten.",
-                    "Implementierung einer robusten VMware-Infrastruktur (vSAN, ESXi), die eine hohe Verfügbarkeit und eine optimierte Ressourcennutzung gewährleistet.",
+                    "Implementierung einer robusten VMware-Infrastruktur (vSAN, ESXi), die eine hohe Verfügbarkeit und optimierte Ressourcennutzung gewährleistet.",
                     "Verwaltung mehrerer 3CX-Systeme, einschließlich fortgeschrittener Anrufkonfigurationsszenarien und Linux-basierter Infrastrukturverwaltung. Aktualisierung der 3CX-Systeme von Version 18 auf Version 20, um eine optimale Servicekontinuität zu gewährleisten.",
-                    "Abwicklung komplexer Projekte, einschließlich der Implementierung einer zentralisierten VPN-Infrastruktur (SoftEther), die sichere Kommunikation zwischen entfernten Standorten ermöglicht.",
-                    "Überwachung der Integration einer vollständigen Backup-Infrastruktur (Veeam mit Hardened Repository) zur Sicherung kritischer Daten.",
+                    "Verwaltung komplexer Projekte, einschließlich der Implementierung einer zentralisierten VPN-Infrastruktur (SoftEther) zur Sicherung der Kommunikation zwischen entfernten Standorten.",
+                    "Überwachung der Integration einer vollständigen Backup-Infrastruktur (Veeam mit Hardened Repository), um die Sicherheit kritischer Daten zu gewährleisten.",
                     "Aktive Teilnahme an strategischen Entscheidungen zur Optimierung der Informationssysteme in Zusammenarbeit mit den Führungsteams.",
-                    "Verwaltung von IT-Projektbudgets zur effizienten Ressourcenzuweisung und Kostenkontrolle.",
-                    "Leitung von kontinuierlichen Verbesserungsinitiativen zur Identifizierung und Beseitigung von Ineffizienzen in IT-Prozessen.",
-                    "Verfassen technischer und betrieblicher Dokumentationen für die IT-Teams.",
+                    "Implementierung und Überwachung von Budgets für IT-Projekte, um eine effiziente Ressourcenzuweisung und Kostenkontrolle sicherzustellen.",
+                    "Einleitung von kontinuierlichen Verbesserungsprozessen zur Identifizierung und Beseitigung von Ineffizienzen in IT-Prozessen.",
+                    "Erstellung von technischen und operativen Dokumentationen für IT-Teams.",
                     "Implementierung und Verwaltung eines EDR-Sicherheitsprodukts für über 2.000 Arbeitsplätze."
                 ]
             }
@@ -363,9 +371,9 @@
                     "Introduction de meilleures pratiques pour la gestion de l'infrastructure matérielle, contribuant à une réduction des coûts opérationnels."
                 ],
                 "en": [
-                    "Developed custom tools for inventory and automated deployment of physical servers, reducing setup time and human errors.",
-                    "Collaborated with development and operations teams to improve hardware infrastructure deployment processes.",
-                    "Introduced best practices for managing hardware infrastructure, contributing to reduced operational costs."
+                    "Development of custom tools for inventory and automated deployment of physical servers, reducing setup time and human errors.",
+                    "Collaboration with development and operations teams to improve hardware infrastructure deployment processes.",
+                    "Introduction of best practices for managing hardware infrastructure, contributing to reduced operational costs."
                 ],
                 "de": [
                     "Entwicklung benutzerdefinierter Tools für die Bestandsaufnahme und den automatisierten Einsatz physischer Server, wodurch die Einrichtungszeit und menschliche Fehler reduziert wurden.",
@@ -397,24 +405,24 @@
                     "Rédaction de documentations techniques et opérationnelles pour les équipes de stockage."
                 ],
                 "en": [
-                    "Managed the complete data storage ecosystem, including SAN for VM and DB storage, NAS for general and application file storage, and S3 for application files.",
-                    "Successfully led the migration of a datacenter, minimizing service disruptions through rigorous planning and the use of advanced tools.",
-                    "Developed and maintained operational scripts to automate repetitive tasks, increasing team efficiency.",
-                    "Mentored and trained a team of eight technicians specialized in storage, fostering their professional growth and improving team performance.",
-                    "Collaborated with security teams to ensure storage systems comply with current standards.",
-                    "Managed budgets allocated to storage infrastructure and migration projects, ensuring expense tracking and cost control.",
-                    "Implemented a continuous improvement program to reduce solution deployment times and enhance team efficiency.",
-                    "Authored technical and operational documentation for the storage teams."
+                    "Management of the complete data storage ecosystem, including SAN for VM and DB storage, NAS for generic and application file storage, and S3 for application files.",
+                    "Execution of a successful datacenter migration, minimizing service interruptions through rigorous planning and the use of advanced tools.",
+                    "Development and maintenance of operational scripts to automate repetitive tasks, increasing team efficiency.",
+                    "Supervision and training of a team of eight technicians specialized in storage, fostering their professional development and improving team performance.",
+                    "Collaboration with security teams to ensure compliance of storage systems with current standards.",
+                    "Management of budgets allocated to migration and storage infrastructure projects, ensuring expense tracking.",
+                    "Implementation of a continuous improvement program to reduce deployment times for storage solutions and increase team efficiency.",
+                    "Creation of technical and operational documentation for storage teams."
                 ],
                 "de": [
-                    "Verwaltung des gesamten Datenspeicher-Ökosystems, einschließlich SAN für VM- und DB-Speicher, NAS für allgemeine und anwendungsbezogene Dateispeicherung und S3 für Anwendungsdateien.",
-                    "Erfolgreiche Durchführung der Migration eines Rechenzentrums, Minimierung von Dienstunterbrechungen durch strikte Planung und den Einsatz fortschrittlicher Werkzeuge.",
-                    "Entwicklung und Wartung von Betriebsskripten zur Automatisierung sich wiederholender Aufgaben, wodurch die Effizienz des Teams gesteigert wurde.",
-                    "Betreuung und Schulung eines Teams von acht auf Speicher spezialisierten Technikern, Förderung ihrer beruflichen Entwicklung und Verbesserung der Teamleistung.",
-                    "Zusammenarbeit mit Sicherheitsteams, um sicherzustellen, dass die Speichersysteme den aktuellen Standards entsprechen.",
-                    "Verwaltung der Budgets für Speicherinfrastruktur- und Migrationsprojekte, Gewährleistung der Ausgabenüberwachung und Kostenkontrolle.",
-                    "Implementierung eines kontinuierlichen Verbesserungsprogramms zur Reduzierung der Lösungsbereitstellungszeiten und Steigerung der Teameffizienz.",
-                    "Verfassen technischer und betrieblicher Dokumentationen für die Speicherteams."
+                    "Gesamtmanagement des Datenspeicher-Ökosystems, einschließlich SAN für VM- und DB-Speicher, NAS für generische und anwendungsbezogene Dateispeicherung und S3 für Anwendungsdateien.",
+                    "Durchführung einer erfolgreichen Rechenzentrumsmigration, Minimierung von Dienstunterbrechungen durch strikte Planung und den Einsatz fortschrittlicher Werkzeuge.",
+                    "Entwicklung und Wartung von Betriebsskripten zur Automatisierung sich wiederholender Aufgaben, Steigerung der Team-Effizienz.",
+                    "Betreuung und Schulung eines Teams von acht spezialisierten Speichertechnikern, Förderung ihrer beruflichen Entwicklung und Verbesserung der Teamleistung.",
+                    "Zusammenarbeit mit Sicherheitsteams zur Gewährleistung der Konformität der Speichersysteme mit aktuellen Standards.",
+                    "Verwaltung der Budgets für Migrations- und Speicherinfrastrukturprojekte, Sicherstellung der Ausgabenüberwachung.",
+                    "Implementierung eines kontinuierlichen Verbesserungsprogramms zur Reduzierung der Bereitstellungszeiten von Speicherlösungen und Steigerung der Team-Effizienz.",
+                    "Erstellung von technischen und operativen Dokumentationen für die Speicherteams."
                 ]
             }
         }

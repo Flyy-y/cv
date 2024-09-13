@@ -90,7 +90,7 @@ h4 {
     font-size: 1.2em;
 }
 
-p, ul, li {
+.middle-column  .secondary-text {
     text-align: justify;
     text-justify: inter-character;
     justify-self: center;
