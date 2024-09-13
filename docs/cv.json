@@ -289,7 +289,7 @@
                         "en": "TCP/IP Protocols",
                         "de": "TCP/IP-Protokolle"
                     },
-                    "level": 70
+                    "level": 80
                 }
             ]
         }
@@ -299,9 +299,9 @@
             "startDate": "2021",
             "endDate": "2024",
             "title": {
-                "fr": "Architecte Infrastructure Système",
-                "en": "Infrastructure Systems Architect",
-                "de": "Infrastruktur-Systemarchitekt"
+                "fr": "Architecte des Systèmes IT et Solutions de Sécurité",
+                "en": "IT Systems Architect and Security Solutions",
+                "de": "Architekt für IT-Systeme und Sicherheitslösungen"
             },
             "employer": "TNS Info",
             "city": "Fontainebleau",
@@ -349,9 +349,9 @@
             "startDate": "2021",
             "endDate": "2021",
             "title": {
-                "fr": "Architecte en charge du développement Métal",
-                "en": "Metal Development Architect",
-                "de": "Architekt für Metal-Entwicklung"
+                "fr": "Ingénieur DevOps d'Automatisation des Déploiements",
+                "en": "DevOps Engineer for Deployment Automation",
+                "de": "DevOps Ingenieur für Bereitstellungsautomatisierung"
             },
             "employer": "Ubisoft",
             "city": "Montreuil",
@@ -378,9 +378,9 @@
             "startDate": "2018",
             "endDate": "2021",
             "title": {
-                "fr": "Architecte d'infrastructure stockage",
-                "en": "Storage Infrastructure Architect",
-                "de": "Speicherinfrastruktur-Architekt"
+                "fr": "Ingénieur Architecte en Systèmes de Stockage",
+                "en": "Storage Systems Architect Engineer",
+                "de": "Architekt Ingenieur für Speichersysteme"
             },
             "employer": "Société Générale (via Synapsys IT)",
             "city": "Val-de-Fontenay",
