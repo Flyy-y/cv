@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('name').textContent = getTranslation(data, 'name');
                 document.getElementById('title').textContent = getTranslation(data, 'title');
 
-                document.getElementById('email').textContent = data.contact.email || '';
-                document.getElementById('phone').textContent = data.contact.phone || '';
+                document.getElementById('email').textContent = data.contact.email ? btoa(data.contact.email) : '';
+                document.getElementById('phone').textContent = data.contact.phone ? btoa(data.contact.phone) : '';
                 document.getElementById('location').textContent = getTranslation(data.contact, 'location');
 
                 // Chargement du résumé (profil)
