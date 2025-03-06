@@ -3,7 +3,7 @@
 
 /* Color Classes */
 .primary-text {
-    color: #1F4E79;
+    color: #142800;
 }
 
 .secondary-text {
@@ -23,11 +23,11 @@
 }
 
 .dark-bg {
-    background-color: #222;
+    background-color: #142800;
 }
 
 .primary-border {
-    border-color: #1F4E79;
+    border-color: #142800;
 }
 
 .secondary-border {
@@ -39,20 +39,21 @@
 }
 
 .progress-bar-fill {
-    background-color: #36A2EB;
+    background-color: #AFF596;
 }
 
 .button-primary {
-    background-color: #1F4E79;
+    background-color: #142800;
     color: white;
 }
 
 .button-primary:hover {
-    background-color: #145a8a;
+    background-color: #1e3c00;
 }
 
 .button-active {
-    background-color: #36A2EB;
+    background-color: #AFF596;
+    color: #142800;
 }
 
 /* Base Styles */
@@ -160,15 +161,18 @@ h4 {
 
 /* Progress Bar */
 .progress-bar {
-    width: 85%;
+    width: 100%; /* Full width for better alignment */
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 10px;
     height: 8px;
+    display: block; /* Ensure block display */
+    margin-top: 5px; /* Add space above progress bar */
 }
 
 .progress-bar-inner {
     height: 100%;
+    display: block; /* Ensure block display */
 }
 
 .language-selector-container {
@@ -242,25 +246,139 @@ h4 {
     vertical-align: middle;
 }
 
+/* Interactive Experience Section */
+.interactive-experience {
+    margin-bottom: 30px;
+}
+
+.experience-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    border-left: 3px solid #142800;
+}
+
+.experience-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+.interactive-title {
+    position: relative;
+    cursor: pointer;
+    padding-right: 30px;
+    transition: color 0.3s ease;
+}
+
+.interactive-title:hover {
+    color: #AFF596;
+}
+
+.highlight-pulse {
+    animation: highlightPulse 1s ease-in-out;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.skill-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: rgba(20, 40, 0, 0.1);
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #142800;
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover, .skill-badge.badge-hover {
+    background-color: rgba(20, 40, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-badge i {
+    margin-right: 5px;
+}
+
+/* PDF Export Button removed */
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(20, 40, 0, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(20, 40, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(20, 40, 0, 0);
+    }
+}
+
+@keyframes highlightPulse {
+    0% { background-color: rgba(175, 245, 150, 0.2); }
+    50% { background-color: rgba(175, 245, 150, 0.1); }
+    100% { background-color: transparent; }
+}
+
+/* Animation classes for elements - removed fading animations */
+
+/* Progress bar animation */
+.animate-progress {
+    transition: width 1s ease-in-out;
+}
+
+/* Highlight pulse for skill sections */
+.skills-section.highlight-pulse {
+    animation: highlightPulse 1s ease-in-out;
+}
+
+/* Animation delay classes removed */
+
 /* Responsive Adjustments */
 /* Include your existing media queries here */
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #222; /* Darker background for dark mode */
+        background-color: #1a1a1a; /* Neutral dark background with just a hint of green */
         color: #e0e0e0; /* Light but not too light text color */
     }
 
     h1, h2, h3, h4 {
-        color: #AFCBFF; /* Brighter heading text for better visibility */
+        color: #AFF596; /* Light green heading text for better visibility */
     }
 
     .light-bg {
-        background-color: #333; /* Darker background for light sections */
+        background-color: #222222; /* Slightly lighter dark background */
     }
 
     .primary-text {
-        color: #AFCBFF;
+        color: #AFF596; /* Light green for primary text */
     }
 
     .secondary-text {
@@ -272,34 +390,50 @@ h4 {
     }
 
     .container {
-        background-color: #333; /* Darker container background */
-        border-color: #555;
+        background-color: #222222; /* Darker container background */
+        border-color: #333333;
     }
 
     .left-column {
-        border-right-color: #555;
+        border-right-color: #333333;
     }
 
     .language-selector-container {
-        background-color: #444;
-        border-color: #555;
+        background-color: #222222;
+        border-color: #333333;
     }
 
     .button-primary {
-        background-color: #555;
+        background-color: #333333;
         color: white;
     }
 
     .button-primary:hover {
-        background-color: #666;
+        background-color: #444444;
+    }
+
+    .button-active {
+        background-color: #AFF596;
+        color: #222222;
     }
 
     .progress-bar-bg {
-        background-color: #555;
+        background-color: #333333;
     }
 
     .progress-bar-fill {
-        background-color: #36A2EB;
+        background-color: #AFF596;
+    }
+
+    /* Fix for skill badges in dark mode */
+    .skill-badge {
+        background-color: rgba(175, 245, 150, 0.2);
+        color: #AFF596;
+    }
+
+    .skill-badge:hover, .skill-badge.badge-hover {
+        background-color: rgba(175, 245, 150, 0.3);
+        color: #ffffff;
     }
 }
 
