@@ -16,11 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
         // Initialize the CV renderer
         const renderer = new CVRenderer().init();
 
+        // Get language from URL hash (e.g., #en or #fr)
+        const hash = window.location.hash.replace('#', '');
+        const language = (hash === 'en' || hash === 'fr') ? hash : 'fr';
+
         // Set up auto-print functionality
         setupAutoPrint();
 
-        // Load CV with current language
-        renderer.render(renderer.currentLanguage);
+        // Load CV with the specified language
+        renderer.render(language);
 
         // Function to change the language (if needed)
         window.changeLanguage = function(language) {
