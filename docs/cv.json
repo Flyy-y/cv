@@ -1,24 +1,56 @@
 {
+    "pageTitle": {
+        "fr": "Clément BREISCH - Consultant IT",
+        "en": "Clément BREISCH - IT Consultant"
+    },
     "name": {
         "fr": "Clément BREISCH",
         "en": "Clément BREISCH"
     },
     "title": {
-        "fr": "Fondateur et Président de BEXSYS - Expert en Intégration de Systèmes",
-        "en": "Founder and CEO of BEXSYS - Systems Integration Expert"
+        "fr": "Consultant IT",
+        "en": "IT Consultant"
+    },
+    "subtitle": {
+        "fr": "Expert Infrastructure & Automatisation",
+        "en": "Infrastructure & Automation Expert"
     },
     "contact": {
         "email": "Y2xlbWVudEBicmVpc2NoLmZyCg",
-        "phone": "KzMzIDYgMDYgNDMgMTEgMDIK",
+        "phone": "KzMzIDcgNTcgMTcgNDEgNjAK",
         "location": {
-            "fr": "Moselle, France",
-            "en": "Moselle, France"
+            "fr": "Mobile sur toute la France",
+            "en": "Flexible location across France"
         },
         "linkedin": "https://www.linkedin.com/in/clementbreisch/",
         "website": "https://cv.breisch.fr"
     },
-    "profilePic": "./images/profile.jpg",
+    "profilePic": "./images/cv_new.webp",
+    "interface": {
+        "languageButtons": {
+            "french": {
+                "fr": "Français",
+                "en": "Français"
+            },
+            "english": {
+                "fr": "English",
+                "en": "English"
+            }
+        },
+        "skills": {
+            "fr": "Compétences",
+            "en": "Skills"
+        },
+        "experience": {
+            "fr": "Expérience professionnelle",
+            "en": "Professional Experience"
+        }
+    },
     "sections": {
+        "keyPoints": {
+            "fr": "Points clés",
+            "en": "Key Points"
+        },
         "languages": {
             "fr": "Langues",
             "en": "Languages"
@@ -27,39 +59,63 @@
             "fr": "Formation",
             "en": "Education"
         },
-        "hobbies": {
-            "fr": "Loisirs",
-            "en": "Hobbies"
-        },
         "certifications": {
             "fr": "Certifications",
             "en": "Certifications"
         },
-        "professionalInterests": {
-            "fr": "Intérêts professionnels",
-            "en": "Professional Interests"
+        "technicalInterests": {
+            "fr": "Intérêts techniques",
+            "en": "Technical Interests"
+        },
+        "continuousLearning": {
+            "fr": "Formation continue",
+            "en": "Continuous Learning"
         },
         "summary": {
-            "fr": "Résumé professionnel",
-            "en": "Professional Summary"
-        },
-        "experience": {
-            "fr": "Expérience professionnelle",
-            "en": "Professional Experience"
-        },
-        "careerGoals": {
-            "fr": "Objectifs de carrière",
-            "en": "Career Goals"
+            "fr": "Profil professionnel",
+            "en": "Professional Profile"
         }
     },
-    "profile": {
-        "fr": "Fondateur et Président de BEXSYS depuis 2025, avec plus de 10 ans d'expertise dans le domaine informatique, spécialisé dans l'intégration de solutions IT innovantes, le développement logiciel, et la transformation numérique des infrastructures.\n\nReconnu pour ma capacité à optimiser les systèmes de stockage, de virtualisation et à développer des outils sur mesure, je combine une solide expertise technique avec un leadership éprouvé, permettant à mes équipes de surpasser les objectifs fixés.\n\nMa passion pour l'innovation technologique, alliée à une curiosité constante pour les nouvelles tendances, m'a permis de créer BEXSYS, une entreprise dédiée à l'excellence technique et à la résolution de problématiques complexes d'intégration et d'infrastructure. Je suis toujours motivé par le défi d'apporter des solutions innovantes tout en anticipant les besoins futurs de nos clients.",
-        "en": "Founder and CEO of BEXSYS since 2025, with over 10 years of expertise in IT, specializing in the integration of innovative solutions, software development, and digital infrastructure transformation.\n\nRecognized for my ability to optimize storage and virtualization systems, as well as developing custom tools, I bring strong technical expertise combined with proven leadership, driving teams to exceed their targets.\n\nMy passion for technological innovation, coupled with a constant curiosity for emerging trends, has led me to create BEXSYS, a company dedicated to technical excellence and solving complex integration and infrastructure challenges. I am always motivated by the challenge of providing innovative solutions while anticipating the future needs of our clients."
+"profile": {
+    "fr": "Architecte solutions et consultant IT indépendant, j'apporte plus de 10 ans d'expertise dans la transformation numérique des entreprises, de la startup innovante aux grands groupes industriels. Passionné par l'innovation technologique et animé d'une curiosité permanente, l'informatique est véritablement mon métier de cœur, ce qui me pousse à explorer constamment de nouvelles approches pour résoudre des défis complexes.<br><br>Mon parcours éclectique m'a permis de naviguer entre différents univers : du gaming chez Ubisoft aux environnements hautement sécurisés de la défense, en passant par le secteur bancaire exigeant. Cette diversité m'a forgé une vision à 360° des enjeux IT, me permettant d'adapter mes solutions à chaque contexte unique, qu'il s'agisse de gérer 30 sites distribués ou d'optimiser une infrastructure monolithique.<br><br>Expert reconnu en virtualisation VMware, stockage enterprise Dell EMC et automatisation via PowerShell et Python, j'ai orchestré des transformations majeures : migrations de datacenters sans interruption, architectures garantissant 99,99% de disponibilité, et solutions d'automatisation réduisant les coûts opérationnels de 30%. Mon approche combine rigueur technique et créativité pour transformer les contraintes en opportunités d'innovation.<br><br>Je me positionne comme un pont entre les mondes technique et stratégique, traduisant les visions business en réalités technologiques tangibles. Que ce soit pour concevoir des clouds privés innovants, moderniser des héritages systèmes ou implémenter des stratégies de cybersécurité avant-gardistes, j'accompagne les entreprises dans leur évolution digitale avec pragmatisme et ambition.",
+    
+    "en": "Solutions architect and independent IT consultant, I bring over 10 years of expertise in digital transformation for companies ranging from innovative startups to large industrial groups. Passionate about technological innovation and driven by continuous curiosity, IT is truly my vocation, pushing me to constantly explore new approaches to solve complex challenges.<br><br>My eclectic career path has allowed me to navigate between different worlds: from gaming at Ubisoft to highly secure defense environments, through the demanding banking sector. This diversity has forged a comprehensive vision of IT challenges, enabling me to adapt my solutions to each unique context, whether managing 30 distributed sites or optimizing monolithic infrastructure.<br><br>Recognized expert in VMware virtualization, Dell EMC enterprise storage, and automation through PowerShell and Python, I have orchestrated major transformations: datacenter migrations without interruption, architectures guaranteeing 99.99% availability, and automation solutions reducing operational costs by 30%. My approach combines technical rigor with creativity to transform constraints into innovation opportunities.<br><br>I position myself as a bridge between technical and strategic worlds, translating business visions into tangible technological realities. Whether designing innovative private clouds, modernizing legacy systems, or implementing cutting-edge cybersecurity strategies, I support companies in their digital evolution with pragmatism and ambition."
+},
+"keyPoints": [
+    {
+        "icon": "fas fa-shield-alt",
+        "title": {
+            "fr": "Environnements critiques",
+            "en": "Critical environments"
+        },
+        "description": {
+            "fr": "Expertise défense et bancaire avec gestion d'infrastructures distribuées 30+ sites",
+            "en": "Defense and banking expertise managing 30+ distributed sites infrastructure"
+        }
     },
-    "careerGoals": {
-        "fr": "En tant que fondateur de BEXSYS, mon objectif est de développer une entreprise leader dans le domaine de l'intégration de systèmes et des infrastructures cloud. Je vise à créer un environnement où l'innovation technique et l'excellence opérationnelle sont au cœur de notre proposition de valeur.\n\nJe souhaite également approfondir notre expertise en intelligence artificielle et en automatisation avancée pour développer des solutions qui résolvent des problèmes complexes et créent une valeur significative pour nos clients. À long terme, j'aspire à ce que BEXSYS contribue à l'évolution des standards de l'industrie et devienne une référence dans le domaine de l'intégration de systèmes.",
-        "en": "As the founder of BEXSYS, my goal is to develop a leading company in the field of systems integration and cloud infrastructure. I aim to create an environment where technical innovation and operational excellence are at the heart of our value proposition.\n\nI also wish to deepen our expertise in artificial intelligence and advanced automation to develop solutions that solve complex problems and create significant value for our clients. In the long term, I aspire for BEXSYS to contribute to the evolution of industry standards and become a reference in the field of systems integration."
+    {
+        "icon": "fas fa-users",
+        "title": {
+            "fr": "Leadership technique",
+            "en": "Technical leadership"
+        },
+        "description": {
+            "fr": "Management d'équipes jusqu'à 8 personnes et pilotage de projets d'infrastructure complexes",
+            "en": "Team management up to 8 people and complex infrastructure project leadership"
+        }
     },
+    {
+        "icon": "fas fa-code",
+        "title": {
+            "fr": "Automatisation avancée",
+            "en": "Advanced automation"
+        },
+        "description": {
+            "fr": "Développement d'outils PowerShell/Python pour l'orchestration d'infrastructures complexes",
+            "en": "PowerShell/Python tools development for complex infrastructure orchestration"
+        }
+    }
+],
     "skills": [
         {
             "category": {
@@ -135,49 +191,6 @@
         },
         {
             "category": {
-                "fr": "Gestion et organisation",
-                "en": "Management and Organization"
-            },
-            "items": [
-                {
-                    "name": {
-                        "fr": "Gestion d'équipe",
-                        "en": "Team Management"
-                    },
-                    "level": 75
-                },
-                {
-                    "name": {
-                        "fr": "Chefferie de projet",
-                        "en": "Project Management"
-                    },
-                    "level": 80
-                },
-                {
-                    "name": {
-                        "fr": "Gestion de budget",
-                        "en": "Budget Management"
-                    },
-                    "level": 75
-                },
-                {
-                    "name": {
-                        "fr": "Amélioration continue",
-                        "en": "Continuous Improvement"
-                    },
-                    "level": 90
-                },
-                {
-                    "name": {
-                        "fr": "Documentation",
-                        "en": "Documentation"
-                    },
-                    "level": 85
-                }
-            ]
-        },
-        {
-            "category": {
                 "fr": "Développement",
                 "en": "Development"
             },
@@ -228,6 +241,35 @@
         },
         {
             "category": {
+                "fr": "Méthodologies",
+                "en": "Methodologies"
+            },
+            "items": [
+                {
+                    "name": {
+                        "fr": "Agile/Scrum",
+                        "en": "Agile/Scrum"
+                    },
+                    "level": 80
+                },
+                {
+                    "name": {
+                        "fr": "DevOps",
+                        "en": "DevOps"
+                    },
+                    "level": 85
+                },
+                {
+                    "name": {
+                        "fr": "ITIL",
+                        "en": "ITIL"
+                    },
+                    "level": 70
+                }
+            ]
+        },
+        {
+            "category": {
                 "fr": "Réseau",
                 "en": "Networking"
             },
@@ -270,343 +312,56 @@
             ]
         }
     ],
-    "experience": [
+    "softSkills": [
         {
-            "startDate": "2025",
-            "endDate": "Present",
-            "title": {
-                "fr": "Fondateur et Président",
-                "en": "Founder and CEO"
+            "category": {
+                "fr": "Compétences relationnelles",
+                "en": "Soft Skills"
             },
-            "employer": "BEXSYS",
-            "city": "Moselle",
-            "country": "France",
-            "logo": "./images/experiences/bexsys.png",
-            "skills": [
+            "items": [
                 {
                     "name": {
-                        "fr": "Direction",
-                        "en": "Leadership"
+                        "fr": "Gestion de crise",
+                        "en": "Crisis Management"
                     },
-                    "icon": "fas fa-users"
+                    "level": 90
                 },
                 {
                     "name": {
-                        "fr": "Système",
-                        "en": "System"
+                        "fr": "Communication C-level",
+                        "en": "C-level Communication"
                     },
-                    "icon": "fas fa-server"
+                    "level": 85
                 },
                 {
                     "name": {
-                        "fr": "Développement",
-                        "en": "Development"
+                        "fr": "Documentation technique",
+                        "en": "Technical Documentation"
                     },
-                    "icon": "fas fa-code"
+                    "level": 90
                 },
                 {
                     "name": {
-                        "fr": "Cloud",
-                        "en": "Cloud"
+                        "fr": "Vulgarisation technique",
+                        "en": "Technical Simplification"
                     },
-                    "icon": "fas fa-cloud"
-                },
-                {
-                    "name": {
-                        "fr": "Stratégie",
-                        "en": "Strategy"
-                    },
-                    "icon": "fas fa-chess"
-                },
-                {
-                    "name": {
-                        "fr": "Innovation",
-                        "en": "Innovation"
-                    },
-                    "icon": "fas fa-lightbulb"
-                },
-                {
-                    "name": {
-                        "fr": "Intégration",
-                        "en": "Integration"
-                    },
-                    "icon": "fas fa-cogs"
+                    "level": 85
                 }
-            ],
-            "details": {
-                "fr": [
-                    "Fondation de BEXSYS, une entreprise spécialisée dans l'intégration de systèmes, le développement logiciel et les solutions d'infrastructure.",
-                    "Direction d'une équipe de professionnels IT hautement qualifiés, établissant une culture d'excellence technique et d'innovation.",
-                    "Développement de solutions sur mesure pour répondre aux défis complexes d'intégration et d'infrastructure des clients.",
-                    "Mise en place de partenariats stratégiques avec des fournisseurs de technologies clés pour offrir des solutions complètes.",
-                    "Élaboration et exécution de la vision stratégique de l'entreprise, en se concentrant sur l'innovation technologique et la satisfaction client.",
-                    "Supervision de projets d'intégration complexes, assurant la livraison dans les délais et le respect des budgets."
-                ],
-                "en": [
-                    "Founded BEXSYS, a company specializing in systems integration, software development, and infrastructure solutions.",
-                    "Leading a team of highly skilled IT professionals, establishing a culture of technical excellence and innovation.",
-                    "Developing custom solutions to address complex integration and infrastructure challenges for clients.",
-                    "Establishing strategic partnerships with key technology providers to deliver comprehensive solutions.",
-                    "Crafting and executing the company's strategic vision, focusing on technological innovation and customer satisfaction.",
-                    "Overseeing complex integration projects, ensuring timely delivery and budget compliance."
-                ]
-            }
-        },
-        {
-            "startDate": "2021",
-            "endDate": "2024",
-            "title": {
-                "fr": "Architecte des Systèmes IT et Solutions de Sécurité",
-                "en": "IT Systems Architect and Security Solutions"
-            },
-            "employer": "TNS Info",
-            "city": "Fontainebleau",
-            "country": "France",
-            "logo": "./images/experiences/tnsinfo.png",
-            "skills": [
-                {
-                    "name": {
-                        "fr": "Virtualisation",
-                        "en": "Virtualization"
-                    },
-                    "icon": "fas fa-server"
-                },
-                {
-                    "name": {
-                        "fr": "Sécurité",
-                        "en": "Security"
-                    },
-                    "icon": "fas fa-shield-alt"
-                },
-                {
-                    "name": {
-                        "fr": "Cloud",
-                        "en": "Cloud"
-                    },
-                    "icon": "fas fa-cloud"
-                },
-                {
-                    "name": {
-                        "fr": "Réseau",
-                        "en": "Networking"
-                    },
-                    "icon": "fas fa-network-wired"
-                },
-                {
-                    "name": {
-                        "fr": "Stockage",
-                        "en": "Storage"
-                    },
-                    "icon": "fas fa-hdd"
-                },
-                {
-                    "name": {
-                        "fr": "Gestion Projet",
-                        "en": "Project Mgmt"
-                    },
-                    "icon": "fas fa-tasks"
-                },
-                {
-                    "name": {
-                        "fr": "Infrastructure",
-                        "en": "Infrastructure"
-                    },
-                    "icon": "fas fa-building"
-                }
-            ],
-            "details": {
-                "fr": [
-                    "Développement d'une offre de cloud privé pour améliorer l'efficacité des services IT et réduire les coûts d'infrastructure.",
-                    "Mise en place d'une infrastructure VMware (vSAN, ESXi) robuste, assurant une haute disponibilité et une gestion optimisée des ressources.",
-                    "Gestion de plusieurs systèmes 3CX, incluant la configuration avancée des scénarios d'appels ainsi que la gestion de l'infrastructure sous Linux. Mise à jour des systèmes 3CX de la version 18 à la version 20, garantissant une continuité de service optimale.",
-                    "Gestion de projets complexes, incluant la mise en œuvre d'une infrastructure de VPN centralisé (SoftEther) pour sécuriser les communications entre sites distants.",
-                    "Supervision de l'intégration d'une infrastructure de sauvegarde complète (Veeam avec Hardened Repository), assurant la protection des données critiques.",
-                    "Participation active aux décisions stratégiques pour l'optimisation des systèmes d'information, en collaboration avec les équipes dirigeantes.",
-                    "Mise en œuvre et suivi de budgets pour des projets IT, assurant une allocation efficace des ressources et une maîtrise des coûts.",
-                    "Initiation d'une démarche d'amélioration continue pour identifier et éliminer les inefficacités dans les processus IT.",
-                    "Rédaction de documentations techniques et opérationnelles pour les équipes IT.",
-                    "Mise en place et gestion d'un produit de sécurité EDR pour plus de 2 000 postes de travail."
-                ],
-                "en": [
-                    "Development of a private cloud offering to improve IT service efficiency and reduce infrastructure costs.",
-                    "Implementation of a robust VMware infrastructure (vSAN, ESXi), ensuring high availability and optimized resource management.",
-                    "Management of multiple 3CX systems, including advanced call scenario configurations and Linux-based infrastructure management. Upgrade of 3CX systems from version 18 to version 20, ensuring optimal service continuity.",
-                    "Management of complex projects, including the implementation of a centralized VPN infrastructure (SoftEther) to secure communications between remote sites.",
-                    "Supervision of the integration of a complete backup infrastructure (Veeam with Hardened Repository), ensuring the protection of critical data.",
-                    "Active participation in strategic decisions for optimizing information systems in collaboration with executive teams.",
-                    "Implementation and monitoring of budgets for IT projects, ensuring efficient resource allocation and cost control.",
-                    "Initiation of continuous improvement processes to identify and eliminate inefficiencies in IT processes.",
-                    "Creation of technical and operational documentation for IT teams.",
-                    "Implementation and management of an EDR security product for over 2,000 workstations."
-                ]
-            }
-        },
-        {
-            "startDate": "2021",
-            "endDate": "2021",
-            "title": {
-                "fr": "Ingénieur DevOps d'Automatisation des Déploiements",
-                "en": "DevOps Engineer for Deployment Automation"
-            },
-            "employer": "Ubisoft",
-            "city": "Montreuil",
-            "country": "France",
-            "logo": "./images/experiences/ubisoft.svg",
-            "skills": [
-                {
-                    "name": {
-                        "fr": "DevOps",
-                        "en": "DevOps"
-                    },
-                    "icon": "fas fa-code-branch"
-                },
-                {
-                    "name": {
-                        "fr": "Automatisation",
-                        "en": "Automation"
-                    },
-                    "icon": "fas fa-robot"
-                },
-                {
-                    "name": {
-                        "fr": "Scripting",
-                        "en": "Scripting"
-                    },
-                    "icon": "fas fa-code"
-                },
-                {
-                    "name": {
-                        "fr": "Linux",
-                        "en": "Linux"
-                    },
-                    "icon": "fab fa-linux"
-                },
-                {
-                    "name": {
-                        "fr": "Déploiement",
-                        "en": "Deployment"
-                    },
-                    "icon": "fas fa-rocket"
-                },
-                {
-                    "name": {
-                        "fr": "Infrastructure",
-                        "en": "Infrastructure"
-                    },
-                    "icon": "fas fa-server"
-                }
-            ],
-            "details": {
-                "fr": [
-                    "Développement d'outils personnalisés pour l'inventaire et le déploiement automatisé de serveurs physiques, réduisant le temps de configuration et les erreurs humaines.",
-                    "Collaboration avec les équipes de développement et d'opérations pour améliorer les processus de déploiement des infrastructures matérielles.",
-                    "Introduction de meilleures pratiques pour la gestion de l'infrastructure matérielle, contribuant à une réduction des coûts opérationnels."
-                ],
-                "en": [
-                    "Development of custom tools for inventory and automated deployment of physical servers, reducing setup time and human errors.",
-                    "Collaboration with development and operations teams to improve hardware infrastructure deployment processes.",
-                    "Introduction of best practices for managing hardware infrastructure, contributing to reduced operational costs."
-                ]
-            }
-        },
-        {
-            "startDate": "2018",
-            "endDate": "2021",
-            "title": {
-                "fr": "Ingénieur Architecte en Systèmes de Stockage",
-                "en": "Storage Systems Architect Engineer"
-            },
-            "employer": "Société Générale (via Synapsys IT)",
-            "city": "Val-de-Fontenay",
-            "country": "France",
-            "logo": "./images/experiences/sg.png",
-            "skills": [
-                {
-                    "name": {
-                        "fr": "Stockage",
-                        "en": "Storage"
-                    },
-                    "icon": "fas fa-hdd"
-                },
-                {
-                    "name": {
-                        "fr": "Virtualisation",
-                        "en": "Virtualization"
-                    },
-                    "icon": "fas fa-server"
-                },
-                {
-                    "name": {
-                        "fr": "Cloud",
-                        "en": "Cloud"
-                    },
-                    "icon": "fas fa-cloud"
-                },
-                {
-                    "name": {
-                        "fr": "Management",
-                        "en": "Management"
-                    },
-                    "icon": "fas fa-users"
-                },
-                {
-                    "name": {
-                        "fr": "Gestion Projet",
-                        "en": "Project Mgmt"
-                    },
-                    "icon": "fas fa-tasks"
-                },
-                {
-                    "name": {
-                        "fr": "Réseau SAN",
-                        "en": "SAN Network"
-                    },
-                    "icon": "fas fa-network-wired"
-                },
-                {
-                    "name": {
-                        "fr": "Scripting",
-                        "en": "Scripting"
-                    },
-                    "icon": "fas fa-code"
-                }
-            ],
-            "details": {
-                "fr": [
-                    "Gestion complète de l'écosystème de stockage de données, comprenant le SAN pour le stockage de VM et DB, NAS pour le stockage de fichiers génériques et applicatifs, et S3 pour les fichiers applicatifs.",
-                    "Conduite de la migration réussie d'un datacenter, minimisant les interruptions de service grâce à une planification rigoureuse et à l'utilisation d'outils avancés.",
-                    "Développement et maintenance de scripts opérationnels pour automatiser les tâches répétitives, augmentant ainsi l'efficacité de l'équipe.",
-                    "Encadrement et formation d'une équipe de huit techniciens spécialisés dans le stockage, favorisant leur développement professionnel et l'amélioration des performances de l'équipe.",
-                    "Collaboration avec les équipes de sécurité pour garantir la conformité des systèmes de stockage aux normes en vigueur.",
-                    "Gestion des budgets alloués aux projets de migration et d'infrastructure de stockage, tout en assurant le suivi des dépenses.",
-                    "Mise en place d'un programme d'amélioration continue pour réduire les délais de mise en œuvre des solutions de stockage et accroître l'efficacité de l'équipe.",
-                    "Rédaction de documentations techniques et opérationnelles pour les équipes de stockage."
-                ],
-                "en": [
-                    "Management of the complete data storage ecosystem, including SAN for VM and DB storage, NAS for generic and application file storage, and S3 for application files.",
-                    "Execution of a successful datacenter migration, minimizing service interruptions through rigorous planning and the use of advanced tools.",
-                    "Development and maintenance of operational scripts to automate repetitive tasks, increasing team efficiency.",
-                    "Supervision and training of a team of eight technicians specialized in storage, fostering their professional development and improving team performance.",
-                    "Collaboration with security teams to ensure compliance of storage systems with current standards.",
-                    "Management of budgets allocated to migration and storage infrastructure projects, ensuring expense tracking.",
-                    "Implementation of a continuous improvement program to reduce deployment times for storage solutions and increase team efficiency.",
-                    "Creation of technical and operational documentation for storage teams."
-                ]
-            }
+            ]
         }
     ],
     "education": [
         {
             "year": "2018",
             "degree": {
-                "fr": "École 42",
-                "en": "42 School"
+                "fr": "École 42 - Développement logiciel",
+                "en": "42 School - Software Development"
             },
             "city": "Paris",
             "country": "France",
             "details": {
-                "fr": "Programme intensif de développement logiciel.",
-                "en": "Intensive software development program."
+                "fr": "Formation intensive en programmation et algorithmique",
+                "en": "Intensive training in programming and algorithms"
             }
         }
     ],
@@ -626,104 +381,245 @@
             "level": 90
         }
     ],
-    "hobbies": [
-        {
-            "name": {
-                "fr": "Informatique",
-                "en": "Computing"
-            },
-            "icon": "fas fa-keyboard"
-        },
-        {
-            "name": {
-                "fr": "Jeux vidéo",
-                "en": "Video Games"
-            },
-            "icon": "fas fa-gamepad"
-        },
-        {
-            "name": {
-                "fr": "Cinéma",
-                "en": "Cinema"
-            },
-            "icon": "fas fa-film"
-        },
-        {
-            "name": {
-                "fr": "Jeu de rôle",
-                "en": "Role Playing Games"
-            },
-            "icon": "fas fa-dice-d20"
-        },
-        {
-            "name": {
-                "fr": "Voyages",
-                "en": "Travels"
-            },
-            "icon": "fas fa-globe"
-        },
-        {
-            "name": {
-                "fr": "Karting",
-                "en": "Karting"
-            },
-            "icon": "fas fa-car"
-        },
-        {
-            "name": {
-                "fr": "Course automobile",
-                "en": "Car Racing"
-            },
-            "icon": "fas fa-flag-checkered"
-        }
-    ],
     "certifications": [
         {
-            "year": "2018",
+            "year": "2021",
             "title": {
-                "fr": "Cisco Certified Network Associate",
-                "en": "Cisco Certified Network Associate"
+                "fr": "VMware Certified Advanced Professional - DCV Design",
+                "en": "VMware Certified Advanced Professional - DCV Design"
             }
         },
         {
             "year": "2020",
             "title": {
-                "fr": "VMware Certified Professional 7.0 - Data Center Virtualization",
-                "en": "VMware Certified Professional 7.0 - Data Center Virtualization"
+                "fr": "VMware Certified Professional - DCV",
+                "en": "VMware Certified Professional - DCV"
             }
         },
         {
-            "year": "2021",
+            "year": "2018",
             "title": {
-                "fr": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design",
-                "en": "VMware Certified Advanced Professional 7.0 - Data Center Virtualization Design"
+                "fr": "Cisco Certified Network Associate (CCNA)",
+                "en": "Cisco Certified Network Associate (CCNA)"
             }
         }
     ],
-    "professionalInterests": [
+    "technicalInterests": [
         {
             "name": {
-                "fr": "Automatisation des tâches",
-                "en": "Task Automation"
+                "fr": "Infrastructure hyperconvergée",
+                "en": "Hyperconverged infrastructure"
+            }
+        },
+        {
+            "name": {
+                "fr": "Automatisation des déploiements",
+                "en": "Deployment automation"
             }
         },
         {
             "name": {
                 "fr": "Sécurité des systèmes",
-                "en": "System Security"
+                "en": "System security"
             }
         },
         {
             "name": {
-                "fr": "Développement d'outils",
-                "en": "Tool Development"
-            }
-        },
-        {
-            "name": {
-                "fr": "Logiciel libre",
-                "en": "Open Source Software"
+                "fr": "Monitoring et observabilité",
+                "en": "Monitoring and observability"
             }
         }
-    ]
+    ],
+    "continuousLearning": [
+        {
+            "name": {
+                "fr": "Veille technologique active",
+                "en": "Active technology watch"
+            }
+        },
+        {
+            "name": {
+                "fr": "Passion pour l'innovation",
+                "en": "Passion for innovation"
+            }
+        },
+        {
+            "name": {
+                "fr": "Recherche continue de nouvelles technologies",
+                "en": "Continuous search for new technologies"
+            }
+        },
+        {
+            "name": {
+                "fr": "Adaptabilité aux évolutions technologiques",
+                "en": "Adaptability to technological changes"
+            }
+        }
+    ],
+"experience": [
+    {
+        "startDate": "02/2022",
+        "endDate": "09/2025",
+        "title": {
+            "fr": "Consultant Infrastructure et Sécurité",
+            "en": "Infrastructure and Security Consultant"
+        },
+        "employer": "KBS",
+        "originalClient": "Mission initiée chez TNS Info, reprise via BEXSYS",
+        "city": "Moissy-Cramayel",
+        "country": "France",
+        "logo": "./images/experiences/kbs.png",
+        "skills": [
+            {"name": {"fr": "PowerShell", "en": "PowerShell"}, "icon": "fas fa-terminal"},
+            {"name": {"fr": "Active Directory", "en": "Active Directory"}, "icon": "fas fa-sitemap"},
+            {"name": {"fr": "Windows Server", "en": "Windows Server"}, "icon": "fab fa-windows"},
+            {"name": {"fr": "Hyper-V", "en": "Hyper-V"}, "icon": "fas fa-server"},
+            {"name": {"fr": "Multi-sites", "en": "Multi-site"}, "icon": "fas fa-globe"},
+            {"name": {"fr": "Haute disponibilité", "en": "High Availability"}, "icon": "fas fa-heartbeat"}
+        ],
+        "details": {
+            "fr": [
+                "Mission stratégique pour un prestataire de l'Armée de Terre, incluant la gestion d'infrastructure critique hautement sécurisée avec des enjeux de souveraineté nationale.",
+                "Gestion et optimisation d'environnements Windows Server et Hyper-V pour la virtualisation des services critiques, garantissant une continuité de service maximale.",
+                "Administration d'une infrastructure complexe distribuée sur plus d'une trentaine de sites géographiques distincts nécessitant une coordination et une expertise technique avancée.",
+                "Mise en œuvre et administration avancée d'Active Directory et des stratégies de groupe (GPO) pour assurer la sécurisation et la gestion centralisée.",
+                "Développement et maintenance d'outils d'automatisation en PowerShell pour optimiser les opérations critiques et réduire les risques d'erreurs humaines sur l'infrastructure.",
+                "Responsabilités étendues de monitoring et supervision de l'infrastructure distribuée, avec mise en place d'alertes proactives et de tableaux de bord personnalisés.",
+                "Optimisation continue des performances système et maintien de la haute disponibilité pour garantir un niveau de service conforme aux exigences opérationnelles.",
+                "Respect strict des protocoles de sécurité et des procédures opérationnelles dans un environnement classifié nécessitant une habilitation de sécurité défense."
+            ],
+            "en": [
+                "Strategic mission for a French Armed Forces contractor, managing highly secure critical infrastructure with national sovereignty stakes and classified defense requirements.",
+                "Management and optimization of Windows Server and Hyper-V environments for critical service virtualization, ensuring maximum business continuity and operational resilience.",
+                "Administration of complex infrastructure distributed across more than thirty geographical sites requiring advanced technical expertise and seamless coordination capabilities.",
+                "Implementation and advanced administration of Active Directory and Group Policy Objects (GPO) to ensure comprehensive security and centralized management across all sites.",
+                "Development and maintenance of PowerShell automation tools to optimize critical operations and minimize human error risks across the distributed infrastructure.",
+                "Extended monitoring and supervision responsibilities for distributed infrastructure, including proactive alert implementation and customized dashboard creation for operational visibility.",
+                "Continuous system performance optimization and high availability maintenance to ensure service levels meet strict operational requirements and compliance standards.",
+                "Strict compliance with security protocols and operational procedures in a classified environment requiring defense security clearance and confidentiality commitments."
+            ]
+        }
+    },
+    {
+        "startDate": "07/2021",
+        "endDate": "12/2024",
+        "title": {
+            "fr": "Architecte Infrastructure & Sécurité",
+            "en": "Infrastructure & Security Architect"
+        },
+        "employer": "TNS Info",
+        "city": "Fontainebleau",
+        "country": "France",
+        "logo": "./images/experiences/tnsinfo.png",
+        "skills": [
+            {"name": {"fr": "vSphere", "en": "vSphere"}, "icon": "fas fa-server"},
+            {"name": {"fr": "Veeam", "en": "Veeam"}, "icon": "fas fa-hdd"},
+            {"name": {"fr": "pfSense", "en": "pfSense"}, "icon": "fas fa-network-wired"},
+            {"name": {"fr": "ESET", "en": "ESET"}, "icon": "fas fa-shield-alt"},
+            {"name": {"fr": "Architecture Cloud", "en": "Cloud Architecture"}, "icon": "fas fa-cloud"},
+            {"name": {"fr": "Gestion de projet", "en": "Project Management"}, "icon": "fas fa-tasks"}
+        ],
+        "details": {
+            "fr": [
+                "Conception et développement d'une offre innovante de cloud privé basée sur VMware vSphere et vSAN pour améliorer significativement l'efficacité des services IT.",
+                "Architecture, déploiement et maintenance d'infrastructures VMware vSphere pour plusieurs clients exigeants, garantissant haute disponibilité et performances optimales en toutes circonstances.",
+                "Interconnexion sécurisée de plus de cinquante sites distants via VPN SoftEther permettant une gestion centralisée et des sauvegardes automatisées multi-sites.",
+                "Implémentation et gestion avancée de solutions Veeam avec Hardened Repository pour assurer une protection maximale contre les ransomwares et les cybermenaces.",
+                "Déploiement, configuration et optimisation de firewalls pfSense pour la sécurisation réseau, le filtrage avancé et les interconnexions VPN multi-sites complexes.",
+                "Administration centralisée de solutions ESET Protect assurant la sécurité et la conformité de plus de 2 000 endpoints dans un environnement hétérogène.",
+                "Gestion technique de plusieurs systèmes 3CX sous Linux, incluant la migration complexe de la version 18 vers 20 et configuration avancée.",
+                "Développement intensif de scripts PowerShell et Python pour l'automatisation des tâches récurrentes, le reporting détaillé et l'amélioration continue des processus."
+            ],
+            "en": [
+                "Design and development of an innovative private cloud offering based on VMware vSphere and vSAN to significantly improve IT service efficiency.",
+                "Architecture, deployment and maintenance of VMware vSphere infrastructures for multiple demanding clients, ensuring high availability and optimal performance under all circumstances.",
+                "Secure interconnection of over fifty remote sites via SoftEther VPN enabling centralized management and automated multi-site backup strategies.",
+                "Implementation and advanced management of Veeam solutions with Hardened Repository to ensure maximum protection against ransomware and evolving cyber threats.",
+                "Deployment, configuration and optimization of pfSense firewalls for network security, advanced filtering and complex multi-site VPN interconnections.",
+                "Centralized administration of ESET Protect solutions ensuring security and compliance of over 2,000 endpoints in a heterogeneous enterprise environment.",
+                "Technical management of multiple 3CX systems on Linux, including complex migration from version 18 to 20 and advanced configuration scenarios.",
+                "Intensive development of PowerShell and Python scripts for recurring task automation, detailed reporting and continuous process improvement initiatives."
+            ]
+        }
+    },
+    {
+        "startDate": "03/2021",
+        "endDate": "06/2021",
+        "title": {
+            "fr": "Ingénieur DevOps",
+            "en": "DevOps Engineer"
+        },
+        "employer": "Ubisoft",
+        "city": "Montreuil",
+        "country": "France",
+        "logo": "./images/experiences/ubisoft.svg",
+        "skills": [
+            {"name": {"fr": "Python", "en": "Python"}, "icon": "fab fa-python"},
+            {"name": {"fr": "Ansible", "en": "Ansible"}, "icon": "fas fa-robot"},
+            {"name": {"fr": "Netbox", "en": "Netbox"}, "icon": "fas fa-diagram-project"},
+            {"name": {"fr": "DevOps", "en": "DevOps"}, "icon": "fas fa-infinity"}
+        ],
+        "details": {
+            "fr": [
+                "Développement d'outils Python sophistiqués pour l'automatisation complète du provisioning de serveurs bare-metal, réduisant drastiquement les délais de déploiement et les erreurs.",
+                "Implémentation stratégique d'Ansible pour la gestion de configuration centralisée et le déploiement automatisé sur un parc de plusieurs centaines de serveurs.",
+                "Déploiement et administration experte de Netbox pour la gestion IPAM et DCIM, créant une source unique de vérité pour l'infrastructure.",
+                "Collaboration étroite avec les équipes de développement pour l'amélioration continue des pipelines CI/CD et l'accélération des cycles de livraison.",
+                "Création et optimisation de playbooks Ansible complexes pour standardiser les déploiements d'infrastructure et garantir la reproductibilité des environnements.",
+                "Introduction réussie de meilleures pratiques DevOps ayant permis une réduction significative des coûts opérationnels et une amélioration de la productivité."
+            ],
+            "en": [
+                "Development of sophisticated Python tools for complete bare-metal server provisioning automation, drastically reducing deployment times and human configuration errors.",
+                "Strategic Ansible implementation for centralized configuration management and automated deployment across a fleet of several hundred production servers.",
+                "Deployment and expert administration of Netbox for IPAM and DCIM management, creating a single source of truth for infrastructure documentation.",
+                "Close collaboration with development teams for continuous improvement of CI/CD pipelines and acceleration of software delivery cycles.",
+                "Creation and optimization of complex Ansible playbooks to standardize infrastructure deployments and ensure environment reproducibility across all systems.",
+                "Successful introduction of DevOps best practices resulting in significant operational cost reduction and measurable productivity improvements across teams."
+            ]
+        }
+    },
+    {
+        "startDate": "12/2018",
+        "endDate": "02/2021",
+        "title": {
+            "fr": "Ingénieur Architecte Stockage",
+            "en": "Storage Architect Engineer"
+        },
+        "employer": "Société Générale via Synapsys IT",
+        "city": "Val-de-Fontenay",
+        "country": "France",
+        "logo": "./images/experiences/sg.png",
+        "skills": [
+            {"name": {"fr": "Dell EMC", "en": "Dell EMC"}, "icon": "fas fa-database"},
+            {"name": {"fr": "Brocade FC", "en": "Brocade FC"}, "icon": "fas fa-ethernet"},
+            {"name": {"fr": "Python", "en": "Python"}, "icon": "fab fa-python"},
+            {"name": {"fr": "SAN/NAS", "en": "SAN/NAS"}, "icon": "fas fa-hdd"},
+            {"name": {"fr": "Leadership", "en": "Leadership"}, "icon": "fas fa-users"},
+            {"name": {"fr": "Migration Datacenter", "en": "Datacenter Migration"}, "icon": "fas fa-truck-moving"},
+            {"name": {"fr": "Capacity Planning", "en": "Capacity Planning"}, "icon": "fas fa-chart-line"}
+        ],
+        "details": {
+            "fr": [
+                "Gestion experte de l'écosystème complet de stockage Dell EMC (VNX, Unity, VMAX) pour un environnement bancaire critique nécessitant une disponibilité maximale.",
+                "Administration avancée des switchs Fibre Channel Brocade pour le réseau SAN, incluant l'optimisation des performances, le zoning et la redondance.",
+                "Développement d'outils Python innovants pour l'automatisation du provisioning, du monitoring et de la génération de rapports sur les baies de stockage.",
+                "Pilotage réussi d'une migration datacenter complexe, incluant la réplication des données, le basculement et la validation sans interruption de service.",
+                "Encadrement, mentorat et formation continue d'une équipe de huit techniciens spécialisés dans le stockage enterprise et les technologies SAN/NAS.",
+                "Création de dashboards Metabase personnalisés et développement d'outils d'audit sophistiqués pour le monitoring proactif de l'infrastructure NAS et l'analyse capacitaire.",
+                "Collaboration transverse avec les équipes Windows, Linux et VMware pour l'optimisation des accès SAN, le tuning performance et la résolution d'incidents.",
+                "Gestion rigoureuse du budget infrastructure stockage, négociation avec les fournisseurs et optimisation des coûts tout en maintenant les niveaux de service."
+            ],
+            "en": [
+                "Expert management of complete Dell EMC storage ecosystem (VNX, Unity, VMAX) for critical banking environment requiring maximum availability and performance.",
+                "Advanced administration of Brocade Fibre Channel switches for SAN network, including performance optimization, zoning configuration and redundancy implementation.",
+                "Development of innovative Python tools for provisioning automation, monitoring and report generation across multiple storage arrays and platforms.",
+                "Successful leadership of complex datacenter migration, including data replication, failover execution and validation without any service interruption.",
+                "Supervision, mentoring and continuous training of a team of eight technicians specialized in enterprise storage and SAN/NAS technologies.",
+                "Creation of custom Metabase dashboards and development of sophisticated audit tools for proactive NAS infrastructure monitoring and capacity analysis.",
+                "Cross-functional collaboration with Windows, Linux and VMware teams for SAN access optimization, performance tuning and critical incident resolution.",
+                "Rigorous management of storage infrastructure budget, vendor negotiations and cost optimization while maintaining required service levels and compliance."
+            ]
+        }
+    }
+]
 }

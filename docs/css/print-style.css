@@ -6,14 +6,19 @@
         size: A4;
         margin: 1.3cm;
     }
-    
+
+    /* Hide elements that shouldn't be printed */
+    .language-selector-container {
+        display: none !important;
+    }
+
     /* Firefox-specific print settings */
     @-moz-document url-prefix() {
         body {
             size: A4;
             margin: 1.3cm;
         }
-        
+
         /* Fix for skill badges in Firefox */
         .skill-badge {
             display: inline-block !important;
@@ -22,7 +27,7 @@
             background-color: #f0f0f0 !important;
             border: 1px solid #142800 !important;
         }
-        
+
         /* Ensure skill badges container displays properly */
         .skill-badges {
             display: flex !important;
@@ -37,119 +42,226 @@ body {
     font-family: 'Exo 2', sans-serif;
     color: #142800;
     margin: 0;
-    font-size: 10pt;
-    line-height: 1.4;
+    font-size: 8.5pt;
+    line-height: 1.3;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 h1 {
-    font-size: 18pt;
+    font-size: 14pt;
     color: #142800;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 h2 {
-    font-size: 12pt;
+    font-size: 10pt;
     color: #142800;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-bottom: 4px;
     border-bottom: 1px solid #142800;
 }
 
+h3 {
+    font-size: 9pt;
+    color: #142800;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
 h4 {
-    font-size: 10pt;
+    font-size: 8.5pt;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
-.right-column li, p {
-    text-align: justify;
-    text-justify: inter-character;
-    justify-self: center;
+h5 {
+    font-size: 8pt;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-weight: 500;
 }
 
+/* 2-column layout for CV print - wider left column */
 .container {
     display: flex;
     justify-content: space-between;
     border: none;
-    padding: 10px;
+    padding: 6px;
     page-break-inside: avoid;
 }
 
 .left-column {
-    width: 25%;
-    padding-right: 15px;
+    width: 30%;
+    padding-right: 12px;
 }
 
 .right-column {
-    width: 70%;
+    width: 65%;
 }
 
 .profile-pic {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
+/* Contact info styling */
+.contact-info p {
+    margin: 2px 0;
+    font-size: 7.5pt;
+}
+
+/* Key points section for print - optimized for narrow left column */
+.key-points-section {
+    background: none !important;
+    border: 1px solid #142800 !important;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 5px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.key-points-item {
+    margin-bottom: 4px;
+    display: block;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.key-points-item i {
+    margin-right: 5px;
+    font-size: 0.8em;
+    color: #142800;
+    float: left;
+    width: 14px;
+    text-align: center;
+}
+
+.key-points-item strong {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.key-points-item span {
+    font-size: 0.8em;
+    line-height: 1.2;
+    display: block;
+    margin-left: 19px;
+}
+
+/* Lists */
 ul {
     list-style-type: none;
     padding-left: 0;
 }
 
 ul li {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     display: block;
     width: 100%;
     clear: both;
+}
+
+/* Skills section - optimized for left column */
+.skills-section {
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.skills-section h4 {
+    font-size: 8pt;
+    margin-bottom: 3px;
+    color: #142800;
+}
+
+/* Progress bars - compact for left column */
+.progress-bar {
+    height: 5px;
+    border-radius: 2px;
+    background-color: #e0e0e0;
+    margin-bottom: 6px;
+    width: 100%;
+    display: block;
+    margin-top: 2px;
+}
+
+.progress-bar-fill, .progress-bar-inner {
+    background-color: #AFF596;
+    height: 100%;
+    border-radius: 3px;
+    display: block;
 }
 
 /* Skill badges styling for print */
 .skill-badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin: 8px 0;
+    gap: 2px;
+    margin: 4px 0;
     page-break-inside: avoid;
     break-inside: avoid;
 }
 
 .skill-badge {
     display: inline-block;
-    padding: 2px 6px;
+    padding: 1px 4px;
     background-color: #f0f0f0;
     border: 1px solid #142800;
-    border-radius: 3px;
-    font-size: 0.8em;
+    border-radius: 2px;
+    font-size: 0.7em;
     color: #142800;
     page-break-inside: avoid;
     break-inside: avoid;
 }
 
 .skill-badge i {
-    margin-right: 4px;
+    margin-right: 3px;
 }
 
-.skills-section {
-    margin-bottom: 15px; /* Augmenter l'espace entre les sections */
+/* Experience section */
+.experience-section h2 {
+    border-bottom: 1px solid #142800;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
 }
 
-.progress-bar {
-    height: 6px;
-    border-radius: 3px;
-    background-color: #e0e0e0;
-    margin-bottom: 10px; /* Augmenter l'espace sous les barres de progression */
-    width: 100%; /* Ensure full width */
-    display: block; /* Ensure block display */
-    margin-top: 5px; /* Add space above progress bar */
+.experience-item {
+    page-break-inside: auto; /* Allow breaking inside experience items */
+    break-inside: auto;
+    margin-bottom: 10px;
+    padding-left: 0;
 }
 
-.progress-bar-fill {
-    background-color: #AFF596;
-    height: 100%;
-    border-radius: 3px;
-    display: block; /* Ensure block display */
+.experience-item h3 {
+    margin-bottom: 3px;
+    font-size: 8.5pt;
+}
+
+/* Experience logos - smaller for print */
+.experience-item img {
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 8px !important;
+}
+
+/* Profile section */
+.profile-description {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 8pt;
+    line-height: 1.2;
+}
+
+/* Right column text alignment */
+.right-column li, .right-column p {
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 /* Suppress URL appearance in printed version */
@@ -157,56 +269,56 @@ a[href]:after {
     content: "";
 }
 
-/* Page break management - with Firefox compatibility */
-.right-column {
-    page-break-inside: avoid; /* Prevent breaks inside right column */
-    break-inside: avoid; /* Modern property for the same effect */
+/* Page break management - allow more flexibility */
+.education-item, .certification-item, .skills-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
-.experience-item, .education-item, .certification-item, .professional-interest-item {
-    page-break-inside: avoid; /* Prevent important elements from being cut */
-    break-inside: avoid; /* Modern property for the same effect */
-    margin-bottom: 20px;
+/* Only prevent orphan lines for experience titles */
+.experience-item h3 {
+    page-break-after: avoid;
+    break-after: avoid;
 }
 
-/* Firefox-specific adjustments */
+/* Firefox-specific adjustments for 2-column layout */
 @-moz-document url-prefix() {
     .container {
-        display: block; /* Firefox sometimes has issues with flex in print */
+        display: block;
     }
-    
+
     .left-column, .right-column {
         float: left;
         box-sizing: border-box;
     }
-    
+
     .left-column {
-        width: 25%;
+        width: 30%;
     }
-    
+
     .right-column {
-        width: 70%;
+        width: 65%;
         margin-left: 5%;
     }
-    
+
     /* Clear float */
     .container:after {
         content: "";
         display: table;
         clear: both;
     }
-    
+
     /* Fix progress bars in Firefox */
     .progress-bar {
         width: 100%;
         display: block;
         clear: both;
     }
-    
-    .progress-bar-fill {
+
+    .progress-bar-fill, .progress-bar-inner {
         display: block;
     }
-    
+
     /* Fix list alignment in Firefox */
     ul li {
         display: block;
@@ -215,7 +327,24 @@ a[href]:after {
     }
 }
 
-/* Ajustement de l'espace entre les sections dans la colonne gauche */
-.left-column h2, .left-column h4, .left-column p, .left-column ul {
-    margin-bottom: 15px;
+/* Spacing adjustments for print */
+.left-column h2, .left-column h3, .left-column h4, .left-column p, .left-column ul {
+    margin-bottom: 6px;
+}
+
+.right-column h2, .right-column h3 {
+    margin-bottom: 6px;
+}
+
+/* Summary section */
+.summary-section {
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* Ensure proper text rendering */
+* {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }

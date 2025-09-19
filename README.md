@@ -10,17 +10,19 @@ This is a project I've purely made for fun.
 
 ## Project Structure
 
-- **css/style.css**: Contains the styles for the web application.
-- **images/**: Directory containing image assets.
-- **js/script.js**: Contains the JavaScript code for the web application.
-- **cv.json**: A JSON file that stores data.
-- **index.html**: The main HTML file for the web application.
-- **README.md**: This file, which provides an overview of the project.
+- **docs/**: Directory containing the CV website files
+  - **css/style.css**: Contains the styles for the web application
+  - **images/**: Directory containing image assets
+  - **js/script.js**: Contains the JavaScript code for the web application
+  - **cv.json**: A JSON file that stores CV data
+  - **index.html**: The main HTML file for the web application
+  - **robots.txt**: Search engine crawling directives
+- **README.md**: This file, which provides an overview of the project
 
 ## How to Run
 
 1. Clone the repository.
-2. Open [`index.html`](./index.html) in a web browser to view the application.
+2. Open [`docs/index.html`](./docs/index.html) in a web browser to view the application.
 
 ## Dependencies
 

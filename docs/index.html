@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CV</title>
+    <title id="page-title">Loading...</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="js/script.js" defer></script>
@@ -15,8 +15,8 @@
     <!-- Language Selector -->
     <div class="language-selector-container light-bg primary-border">
         <div class="language-selector">
-            <button id="btn-fr" onclick="changeLanguage('fr')" class="button-primary active">Français</button>
-            <button id="btn-en" onclick="changeLanguage('en')" class="button-primary">English</button>
+            <button id="btn-fr" onclick="changeLanguage('fr')" class="button-primary active"></button>
+            <button id="btn-en" onclick="changeLanguage('en')" class="button-primary"></button>
             <button id="btn-print" onclick="printCv()" class="button-primary">
                 <i class="fas fa-print"></i>
             </button>
@@ -26,24 +26,46 @@
     <div class="container white-bg secondary-border">
         <!-- Left Column -->
         <div class="left-column primary-border">
-            <img id="profile-pic" class="profile-pic" src="./images/profile.jpg" alt="Profile Picture">
-            <h1 id="name" class="primary-text">Clément BREISCH</h1>
-            <h4 id="title" class="primary-text">Passionné d'informatique</h4>
-            <p class="secondary-text"><i class="fas fa-envelope"></i> <span id="email">email@example.com</span></p>
-            <p class="secondary-text"><i class="fas fa-phone"></i> <span id="phone">+33 6 12 34 56 78</span></p>
-            <p class="secondary-text"><i class="fas fa-map-marker-alt"></i> <span id="location">Paris, France</span></p>
-            <p><a id="linkedin" class="secondary-text" href="#" style="display:none;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-            <p><a id="website" class="secondary-text" href="#" style="display:none;"><i class="fas fa-globe"></i> Website</a></p>
-            
+            <img id="profile-pic" class="profile-pic" src="" alt="">
+            <h1 id="name" class="primary-text"></h1>
+            <h4 id="title" class="primary-text"></h4>
+            <h5 id="subtitle" class="secondary-text"></h5>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p id="email" class="secondary-text"><i class="fas fa-envelope"></i> <span></span></p>
+                <p id="phone" class="secondary-text"><i class="fas fa-phone"></i> <span></span></p>
+                <p id="location" class="secondary-text"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+                <p><a id="linkedin" class="secondary-text" href=""><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                <p><a id="website" class="secondary-text" href=""><i class="fas fa-globe"></i> <span id="website-text"></span></a></p>
+            </div>
+
+            <!-- Key Points -->
+            <div class="key-points-section">
+                <h3 id="keyPoints-title" class="primary-text"></h3>
+                <div id="keyPoints" class="key-points-content">
+                    <!-- Key Points dynamically generated via JavaScript -->
+                </div>
+            </div>
+
             <!-- Skills -->
             <div id="skills">
+                <h3 id="skills-title" class="primary-text"></h3>
                 <!-- Skills dynamically generated via JavaScript -->
             </div>
         </div>
 
         <!-- Middle Column -->
         <div class="middle-column">
-            <div id="experience" class="interactive-experience">
+            <!-- Professional Summary -->
+            <div class="summary-section">
+                <h2 id="summary-title" class="primary-text"></h2>
+                <p id="profile-text" class="profile-description"></p>
+            </div>
+
+            <!-- Experience -->
+            <div id="experience" class="experience-section">
+                <h2 id="experience-title" class="primary-text"></h2>
                 <!-- Experience dynamically generated via JavaScript -->
             </div>
         </div>
@@ -51,36 +73,107 @@
         <!-- Right Column -->
         <div class="right-column">
             <!-- Languages -->
-            <h2 id="languages-title" class="primary-text">Langues</h2>
+            <h2 id="languages-title" class="primary-text"></h2>
             <ul id="languages">
                 <!-- Languages dynamically generated via JavaScript -->
             </ul>
 
             <!-- Education -->
-            <h2 id="education-title" class="primary-text">Éducation</h2>
+            <h2 id="education-title" class="primary-text"></h2>
             <ul id="education">
                 <!-- Education dynamically generated via JavaScript -->
             </ul>
 
             <!-- Certifications -->
-            <h2 id="certifications-title" class="primary-text">Certifications</h2>
+            <h2 id="certifications-title" class="primary-text"></h2>
             <ul id="certifications">
                 <!-- Certifications dynamically generated via JavaScript -->
             </ul>
 
-            <!-- Professional Interests -->
-            <h2 id="professional-interests-title" class="primary-text">Centres d'intérêt professionnels</h2>
-            <ul id="professional-interests">
-                <!-- Professional Interests dynamically generated via JavaScript -->
+            <!-- Technical Interests -->
+            <h2 id="technicalInterests-title" class="primary-text"></h2>
+            <ul id="technicalInterests">
+                <!-- Technical Interests dynamically generated via JavaScript -->
             </ul>
 
-            <!-- Hobbies -->
-            <h2 id="hobbies-title" class="primary-text">Hobbies</h2>
-            <ul id="hobbies">
-                <!-- Hobbies dynamically generated via JavaScript -->
+            <!-- Continuous Learning -->
+            <h2 id="continuousLearning-title" class="primary-text"></h2>
+            <ul id="continuousLearning">
+                <!-- Continuous Learning dynamically generated via JavaScript -->
             </ul>
         </div>
     </div>
+
+    <!-- Custom styles for CV -->
+    <style>
+        .key-points-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .dark-bg .key-points-section {
+            background: rgba(0, 255, 0, 0.08);
+            border-left-color: #00ff00;
+        }
+
+        .key-points-section h3 {
+            margin-bottom: 15px;
+        }
+
+        .key-points-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .key-points-item i {
+            margin-right: 10px;
+            font-size: 1.1em;
+            min-width: 25px;
+            text-align: center;
+            color: #667eea;
+        }
+
+        .dark-bg .key-points-item i {
+            color: #00ff00;
+        }
+
+        .key-points-item strong {
+            display: block;
+            margin-bottom: 3px;
+            font-size: 0.95em;
+        }
+
+        .key-points-item span {
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+
+
+        .experience-section h2 {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .experience-item {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+
+        .original-client {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+    </style>
 </body>
 
 </html>

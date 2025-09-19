@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(start docs-seryce/index.html)",
+      "Bash(python:*)",
+      "Bash(start http://localhost:8000)",
+      "Bash(mkdir:*)",
+      "Bash(start printable.html)",
+      "Bash(mv:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

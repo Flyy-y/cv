@@ -162,6 +162,7 @@ h4 {
 /* Progress Bar */
 .progress-bar {
     width: 100%; /* Full width for better alignment */
+    background-color: #e0e0e0;
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -172,7 +173,9 @@ h4 {
 
 .progress-bar-inner {
     height: 100%;
+    background-color: #AFF596;
     display: block; /* Ensure block display */
+    border-radius: 4px;
 }
 
 .language-selector-container {
@@ -417,11 +420,11 @@ h4 {
         color: #222222;
     }
 
-    .progress-bar-bg {
+    .progress-bar {
         background-color: #333333;
     }
 
-    .progress-bar-fill {
+    .progress-bar-inner {
         background-color: #AFF596;
     }
 
