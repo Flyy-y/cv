@@ -3,19 +3,19 @@
 
 /* Color Classes */
 .primary-text {
-    color: #142800;
+    color: #1A365D;
 }
 
 .secondary-text {
-    color: #333;
+    color: #1A365D;
 }
 
 .tertiary-text {
-    color: #555;
+    color: #666;
 }
 
 .light-bg {
-    background-color: #f4f4f4;
+    background-color: #F8F9FA;
 }
 
 .white-bg {
@@ -23,37 +23,37 @@
 }
 
 .dark-bg {
-    background-color: #142800;
+    background-color: #1A365D;
 }
 
 .primary-border {
-    border-color: #142800;
+    border-color: #2E5BBA;
 }
 
 .secondary-border {
-    border-color: #ddd;
+    border-color: #E2E8F0;
 }
 
 .progress-bar-bg {
-    background-color: #e0e0e0;
+    background-color: #E2E8F0;
 }
 
 .progress-bar-fill {
-    background-color: #AFF596;
+    background-color: #A8C5FF;
 }
 
 .button-primary {
-    background-color: #142800;
+    background-color: #2E5BBA;
     color: white;
 }
 
 .button-primary:hover {
-    background-color: #1e3c00;
+    background-color: #1A365D;
 }
 
 .button-active {
-    background-color: #AFF596;
-    color: #142800;
+    background-color: #A8C5FF;
+    color: #1A365D;
 }
 
 /* Base Styles */
@@ -162,7 +162,7 @@ h4 {
 /* Progress Bar */
 .progress-bar {
     width: 100%; /* Full width for better alignment */
-    background-color: #e0e0e0;
+    background-color: #E2E8F0;
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -173,7 +173,7 @@ h4 {
 
 .progress-bar-inner {
     height: 100%;
-    background-color: #AFF596;
+    background-color: #A8C5FF;
     display: block; /* Ensure block display */
     border-radius: 4px;
 }
@@ -262,7 +262,7 @@ h4 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     overflow: hidden;
-    border-left: 3px solid #142800;
+    border-left: 3px solid #2E5BBA;
 }
 
 .experience-item:hover {
@@ -278,7 +278,7 @@ h4 {
 }
 
 .interactive-title:hover {
-    color: #AFF596;
+    color: #A8C5FF;
 }
 
 .highlight-pulse {
@@ -295,15 +295,15 @@ h4 {
 .skill-badge {
     display: inline-block;
     padding: 3px 8px;
-    background-color: rgba(20, 40, 0, 0.1);
+    background-color: rgba(46, 91, 186, 0.1);
     border-radius: 4px;
     font-size: 0.8em;
-    color: #142800;
+    color: #1A365D;
     transition: all 0.3s ease;
 }
 
 .skill-badge:hover, .skill-badge.badge-hover {
-    background-color: rgba(20, 40, 0, 0.2);
+    background-color: rgba(46, 91, 186, 0.2);
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -333,19 +333,19 @@ h4 {
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(20, 40, 0, 0.7);
+        box-shadow: 0 0 0 0 rgba(46, 91, 186, 0.7);
     }
     70% {
-        box-shadow: 0 0 0 10px rgba(20, 40, 0, 0);
+        box-shadow: 0 0 0 10px rgba(46, 91, 186, 0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(20, 40, 0, 0);
+        box-shadow: 0 0 0 0 rgba(46, 91, 186, 0);
     }
 }
 
 @keyframes highlightPulse {
-    0% { background-color: rgba(175, 245, 150, 0.2); }
-    50% { background-color: rgba(175, 245, 150, 0.1); }
+    0% { background-color: rgba(168, 197, 255, 0.2); }
+    50% { background-color: rgba(168, 197, 255, 0.1); }
     100% { background-color: transparent; }
 }
 
@@ -361,6 +361,73 @@ h4 {
     animation: highlightPulse 1s ease-in-out;
 }
 
+/* Key Points Section */
+.key-points-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(46, 91, 186, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid #2E5BBA;
+}
+
+.dark-bg .key-points-section {
+    background: rgba(168, 197, 255, 0.08);
+    border-left-color: #A8C5FF;
+}
+
+.key-points-section h3 {
+    margin-bottom: 15px;
+}
+
+.key-points-item {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.key-points-item i {
+    margin-right: 10px;
+    font-size: 1.1em;
+    min-width: 25px;
+    text-align: center;
+    color: #2E5BBA;
+}
+
+.dark-bg .key-points-item i {
+    color: #A8C5FF;
+}
+
+.key-points-item strong {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 0.95em;
+}
+
+.key-points-item span {
+    font-size: 0.85em;
+    opacity: 0.8;
+}
+
+/* Experience Section */
+.experience-section h2 {
+    border-bottom: 2px solid #2E5BBA;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.original-client {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
 /* Animation delay classes removed */
 
 /* Responsive Adjustments */
@@ -368,32 +435,32 @@ h4 {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1a1a1a; /* Neutral dark background with just a hint of green */
-        color: #e0e0e0; /* Light but not too light text color */
+        background-color: #1a1a1a;
+        color: #e0e0e0;
     }
 
     h1, h2, h3, h4 {
-        color: #AFF596; /* Light green heading text for better visibility */
+        color: #A8C5FF;
     }
 
     .light-bg {
-        background-color: #222222; /* Slightly lighter dark background */
+        background-color: #222222;
     }
 
     .primary-text {
-        color: #AFF596; /* Light green for primary text */
+        color: #A8C5FF;
     }
 
     .secondary-text {
-        color: #e0e0e0; /* Adjusted for readability */
+        color: #e0e0e0;
     }
 
     .tertiary-text {
-        color: #bbb; /* Slightly darker than secondary for better contrast */
+        color: #bbb;
     }
 
     .container {
-        background-color: #222222; /* Darker container background */
+        background-color: #222222;
         border-color: #333333;
     }
 
@@ -407,17 +474,17 @@ h4 {
     }
 
     .button-primary {
-        background-color: #333333;
+        background-color: #2E5BBA;
         color: white;
     }
 
     .button-primary:hover {
-        background-color: #444444;
+        background-color: #1A365D;
     }
 
     .button-active {
-        background-color: #AFF596;
-        color: #222222;
+        background-color: #A8C5FF;
+        color: #1A365D;
     }
 
     .progress-bar {
@@ -425,17 +492,17 @@ h4 {
     }
 
     .progress-bar-inner {
-        background-color: #AFF596;
+        background-color: #A8C5FF;
     }
 
     /* Fix for skill badges in dark mode */
     .skill-badge {
-        background-color: rgba(175, 245, 150, 0.2);
-        color: #AFF596;
+        background-color: rgba(168, 197, 255, 0.2);
+        color: #A8C5FF;
     }
 
     .skill-badge:hover, .skill-badge.badge-hover {
-        background-color: rgba(175, 245, 150, 0.3);
+        background-color: rgba(168, 197, 255, 0.3);
         color: #ffffff;
     }
 }
