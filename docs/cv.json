@@ -114,6 +114,17 @@
             "fr": "Développement d'outils PowerShell/Python pour l'orchestration d'infrastructures complexes",
             "en": "PowerShell/Python tools development for complex infrastructure orchestration"
         }
+    },
+    {
+        "icon": "fas fa-drafting-compass",
+        "title": {
+            "fr": "Architecture & Conformité",
+            "en": "Architecture & Compliance"
+        },
+        "description": {
+            "fr": "Conception d'architectures conformes aux référentiels ANSSI et aux exigences de souveraineté numérique",
+            "en": "Architecture design compliant with ANSSI frameworks and digital sovereignty requirements"
+        }
     }
 ],
     "skills": [
@@ -458,6 +469,44 @@
     ],
 "experience": [
     {
+        "startDate": "10/2025",
+        "endDate": "03/2026",
+        "title": {
+            "fr": "Architecte Infrastructure",
+            "en": "Infrastructure Architect"
+        },
+        "employer": "AMSN",
+        "city": "Monaco",
+        "country": "Monaco",
+        "logo": "./images/experiences/amsn.png",
+        "skills": [
+            {"name": {"fr": "Architecture", "en": "Architecture"}, "icon": "fas fa-drafting-compass"},
+            {"name": {"fr": "Sécurité", "en": "Security"}, "icon": "fas fa-shield-alt"},
+            {"name": {"fr": "Réseau", "en": "Networking"}, "icon": "fas fa-network-wired"},
+            {"name": {"fr": "Virtualisation", "en": "Virtualization"}, "icon": "fas fa-server"},
+            {"name": {"fr": "Technologies souveraines", "en": "Sovereign Technologies"}, "icon": "fas fa-flag"},
+            {"name": {"fr": "Infrastructure critique", "en": "Critical Infrastructure"}, "icon": "fas fa-lock"}
+        ],
+        "details": {
+            "fr": [
+                "Conception de l'architecture complète d'une infrastructure critique pour l'Agence Monégasque de Sécurité Numérique (AMSN), couvrant les volets compute, stockage, réseau et sécurité.",
+                "Analyse des besoins métier et traduction en spécifications techniques, garantissant une architecture alignée avec les exigences opérationnelles et les contraintes de l'agence.",
+                "Définition et design de l'architecture réseau sécurisée, intégrant les exigences de cloisonnement, de redondance et de haute disponibilité propres aux environnements critiques.",
+                "Élaboration de l'architecture de sécurité et de virtualisation basée sur des technologies souveraines et open-source, dans le respect strict des référentiels et normes de l'AMSN et de l'ANSSI, incluant l'analyse des écarts et les mesures correctives.",
+                "Rédaction du Plan d'Architecture Technique (PAT), définissant les objectifs de mise en place, les préconisations techniques et le cadrage budgétaire du projet.",
+                "Collaboration étroite avec les équipes de l'AMSN pour assurer l'alignement de l'architecture proposée avec les politiques de cybersécurité et les contraintes opérationnelles."
+            ],
+            "en": [
+                "Complete infrastructure architecture design for the Monegasque Agency for Digital Security (AMSN), covering compute, storage, networking and security layers.",
+                "Business requirements analysis and translation into technical specifications, ensuring architecture alignment with operational needs and agency constraints.",
+                "Definition and design of secure network architecture, integrating segmentation requirements, redundancy and high availability specific to critical environments.",
+                "Security and virtualization architecture design based on sovereign and open-source technologies, in strict compliance with AMSN and ANSSI frameworks and standards, including gap analysis and corrective measures.",
+                "Authoring of the Technical Architecture Plan (TAP), defining implementation objectives, technical recommendations and project budget framework.",
+                "Close collaboration with AMSN teams to ensure alignment of proposed architecture with cybersecurity policies and operational constraints."
+            ]
+        }
+    },
+    {
         "startDate": "02/2022",
         "endDate": "09/2025",
         "title": {
@@ -562,18 +611,16 @@
         "details": {
             "fr": [
                 "Développement d'outils Python sophistiqués pour l'automatisation complète du provisioning de serveurs bare-metal, réduisant drastiquement les délais de déploiement et les erreurs.",
-                "Implémentation stratégique d'Ansible pour la gestion de configuration centralisée et le déploiement automatisé sur un parc de plusieurs centaines de serveurs.",
+                "Implémentation stratégique d'Ansible et création de playbooks complexes pour la gestion de configuration centralisée, le déploiement automatisé et la reproductibilité des environnements sur un parc de plusieurs centaines de serveurs.",
                 "Déploiement et administration experte de Netbox pour la gestion IPAM et DCIM, créant une source unique de vérité pour l'infrastructure.",
                 "Collaboration étroite avec les équipes de développement pour l'amélioration continue des pipelines CI/CD et l'accélération des cycles de livraison.",
-                "Création et optimisation de playbooks Ansible complexes pour standardiser les déploiements d'infrastructure et garantir la reproductibilité des environnements.",
                 "Introduction réussie de meilleures pratiques DevOps ayant permis une réduction significative des coûts opérationnels et une amélioration de la productivité."
             ],
             "en": [
                 "Development of sophisticated Python tools for complete bare-metal server provisioning automation, drastically reducing deployment times and human configuration errors.",
-                "Strategic Ansible implementation for centralized configuration management and automated deployment across a fleet of several hundred production servers.",
+                "Strategic Ansible implementation and complex playbook creation for centralized configuration management, automated deployment and environment reproducibility across a fleet of several hundred production servers.",
                 "Deployment and expert administration of Netbox for IPAM and DCIM management, creating a single source of truth for infrastructure documentation.",
                 "Close collaboration with development teams for continuous improvement of CI/CD pipelines and acceleration of software delivery cycles.",
-                "Creation and optimization of complex Ansible playbooks to standardize infrastructure deployments and ensure environment reproducibility across all systems.",
                 "Successful introduction of DevOps best practices resulting in significant operational cost reduction and measurable productivity improvements across teams."
             ]
         }

@@ -52,21 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function setupPrintFunctionality(renderer) {
-        // Check if browser is Firefox
-        const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-
-        // Hide print button for Firefox browsers
-        if (isFirefox) {
-            const printButton = document.getElementById('btn-print');
-            if (printButton) {
-                printButton.style.display = 'none';
-            }
-        }
+        // Detect Chromium-based browsers (Chrome, Edge, Opera, Brave, etc.)
+        const isChromium = !!window.chrome;
 
         window.printCv = function() {
-            // Only proceed if not Firefox
-            if (isFirefox) {
-                console.warn('Printing is not supported in Firefox');
+            if (!isChromium) {
+                const msg = renderer.currentLanguage === 'fr'
+                    ? 'L\'impression n\'est disponible que sur les navigateurs basés sur Chrome (Chrome, Edge, Brave, Opera...).'
+                    : 'Printing is only available on Chrome-based browsers (Chrome, Edge, Brave, Opera...).';
+                alert(msg);
                 return;
             }
 
